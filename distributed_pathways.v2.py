@@ -2252,12 +2252,12 @@ def compute_min_species(pathways,p, lca):
     solLines = glpout.readlines()
     glpout.close()
     for s in solLines:
-        hits = objective.search(s.strip()) 
+        hits = objective.search(s.strip())
         if hits:
            value = int(hits.group(1))
            break
      
-     
+    
     return value
 
     #for rxn in pathways[p]['rxns']:
