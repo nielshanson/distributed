@@ -52,3 +52,10 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# data
+data/
+drafts/
+
+# OSX 
+.DS_Store
