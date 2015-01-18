@@ -36,3 +36,9 @@ We have the following samples that we have combined:
 and we have combined these in the following ways BD, BM, MD, BDM
 
 
+* get started tomorrow:
+
+```
+cd Dropbox/projects/distributed
+python distributed_pathways.v1.py --ncbi-file resources/ncbi_taxonomy_tree.txt --pathways-file data/Thaumarchaea_comparison/thamurchaea_pwy.txt --enzymes-file data/Thaumarchaea_comparison/output/fasta/blast/Thamurchaea_all/results/annotation_table/functional_and_taxonomic_table.txt
+```

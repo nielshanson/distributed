@@ -15,8 +15,8 @@ try:
      import re
      from optparse import OptionParser, OptionGroup
 
-     from SpeciesComputation import *
-     from metapaths_utils  import  fprintf, printf
+     from python_resources.SpeciesComputation import *
+     from python_resources.metapaths_utils  import  fprintf, printf
      #from libs.python_modules.sysutil import getstatusoutput
 except:
      print """ Could not load some user defined  module functions"""
@@ -29,7 +29,7 @@ objective = re.compile(r'Objective.*=\s*(\d*)')
 
 usage=  sys.argv[0] + " --ncbi-file ncbi_taxfile --pathways-file pathways_list  --enzymes-file enzymes_file"""
 
-glpsol = "/usr/local/bin/glpsol"
+glpsol = "/opt/local/bin/glpsol"
 
 parser = OptionParser(usage)
 parser.add_option("--ncbi-file", dest="ncbi_file",
@@ -185,7 +185,7 @@ def read_pathways_list(pathways_file, pathways):
              if len(fields) > 5:
                  for i in  range(5,len(fields)):
                      enzyme = fields[i]
-                     pathways[pathway_name]['rxns'][rxn_name][enzyme] = True 
+                     pathways[pathway_name]['rxns'][rxn_name][enzyme] = True
                        
 
 def print_taxonomy_information(pathways,ranked_pathways, enzymes, lca):
@@ -212,9 +212,9 @@ def print_taxonomy_information(pathways,ranked_pathways, enzymes, lca):
 def add_taxonomy_information(pathways, enzymes):
     for  key in pathways:
         for rxn in pathways[key]['rxns']:   
-           for enzyme in pathways[key]['rxns'][rxn]:   
-             if enzyme in enzymes:
-                pathways[key]['rxns'][rxn][enzyme] = enzymes[enzyme]   
+           for enzyme in pathways[key]['rxns'][rxn]:  # get orfs for  
+             if enzyme in enzymes: # key to taxonomy
+                pathways[key]['rxns'][rxn][enzyme] = enzymes[enzyme] # put taxonomy on reaction
              
        #      print '      '+ enzyme + '  ' + pathways[key]['rxns'][rxn][enzyme]
        # indlist = lca.get_independent_taxons(taxons)
@@ -243,7 +243,6 @@ def compute_min_species(pathways,p, lca):
       taxon_variable[x] = 'X' + str(i)
       i+=1
 
-
     try:
        mpsinput = open('input.mps','w')
     except IOError:
@@ -258,7 +257,7 @@ def compute_min_species(pathways,p, lca):
            valid_reactions.append(rxn)
 
 
-    #create X variables 
+    # create X variables 
     reaction_names = {} 
     i = 0
     for x in valid_reactions:
@@ -359,21 +358,54 @@ def main(argv):
     (opts, args) = parser.parse_args()
     argv = check_arguments(opts)
 
-    namesdict = {}
+    namesdict = {} # hash of all the names of the NCBI Taxonomy tree.
     read_taxonomy_list(opts.ncbi_file, namesdict)
+    
+    # create NCBI Taxonomy tree
     lca = SpeciesComputation(opts.ncbi_file)
-#    lca.construct_tree()
-
-    enzymes={}
+    # lca.construct_tree()
+    
+    enzymes={} # read to taxonomic annotation mapping
     read_enzymes_list(opts.enzymes_file, enzymes)
-    pathways={}
+    
+    # Example structure
+    # 'GLUTORN-PWY': {'common_name': 'ornithine biosynthesis',
+    #                 'rxns-type': {'ACETYLORNDEACET-RXN': '1',
+    #                             'N-ACETYLGLUTPREDUCT-RXN': '6',
+    #                             'ACETYLGLUTKIN-RXN': '6',
+    #                             'ACETYLORNTRANSAM-RXN': '8',
+    #                             'N-ACETYLTRANSFER-RXN': '0'},
+    #                 'rxns': {'ACETYLORNDEACET-RXN': {},
+    #                          'N-ACETYLGLUTPREDUCT-RXN': {'Nmar_1289': True,
+    #                                                      'Nlim_1024': True,
+    #                                                      'BD31_I1263': True,
+    #                                                      'NKOR_07275': True,
+    #                                                      'NSED_07155': True},
+    #                         'ACETYLGLUTKIN-RXN': {'CSUB_C0425': True,
+    #                                               'Nmar_1290': True,
+    #                                               'NSED_07160': True,
+    #                                               'BD31_I1264': True,
+    #                                               'NKOR_07280': True},
+    #                         'ACETYLORNTRANSAM-RXN': {'Ngar_c13370': True,
+    #                                                  'Nlim_1026': True,
+    #                                                  'Nmar_1291': True,
+    #                                                  'CSUB_C1307': True,
+    #                                                  'NKOR_07285': True,
+    #                                                  'MY1_1445': True,
+    #                                                  'NSED_07165': True},
+    #                         'N-ACETYLTRANSFER-RXN': {}
+    #                     }
+    #                 }
+    
+    pathways={} # pathway -> rxns -> orfs
     read_pathways_list(opts.pathways_file, pathways)
-
+    
+    # put taxonomy from ORF annotation
     add_taxonomy_information(pathways, enzymes)
-
+    
     distrib_pathways = {}
     for p in pathways:  
-       value =  compute_min_species(pathways,p, lca)
+       value =  compute_min_species(pathways, p, lca) # perform integer optimization
        distrib_pathways[p] = value
 
     ranked_pwys = sorted(distrib_pathways, key=distrib_pathways.get, reverse=True)
