@@ -17,17 +17,19 @@ parser = optparse.OptionParser(usage = usage, epilog = what_i_do)
 parser.add_option("-p", "--ptools_organism", dest="ptools_org", default=None,
                    help='Organism to attach pathway tools in [Required]')
 parser.add_option("-l", "--list_organisms", action="store_true", dest="list_organisms", default=None,
-                  help='List available PGDBs in Pathway Tools.')                   
+                  help='List available PGDBs in Pathway Tools.')
+parser.add_option("--micro_dex", action="store_true", dest="micro_dex", default=None,
+                   help='create a file compatible with MicroDEX')       
 parser.add_option("-o", "--output_file", dest="output_file", default=None,
                    help='output file to write to [Required]')
 
-
 # check required options
 def check_arguments(opts):
-    if not opts.ptools_org:
-        print "Error: Pathway Tools organism/pgdb id not specified."
-        print usage
-        exit()
+    pass
+    # if not opts.ptools_org:
+#         print "Error: Pathway Tools organism/pgdb id not specified."
+#         print usage
+#         exit()
     # if not opts.output_file:
     #         print "Error: Output file not specified."
     #         print usage
@@ -43,11 +45,8 @@ def connect_to_ptools(ptools_org):
     return cyc
 
 # cleans off list 
-def clean_ptools_output(my_list):
-    new_list = []
-    for x in my_list: 
-        new_list.append(x.strip("|"))
-    return new_list
+def clean_ptools_output(x):
+    return x.strip("|")
 
 # Tests for edge between two reactions. If reactions share an edge then they should
 # be connected 
@@ -74,7 +73,9 @@ def test_for_edge(rxn1, rxn2):
 def add_edge(source, target, rxn, pwy=None, edge_type="path"):
     # could be a problem
     new_edge = "_".join([source, target, rxn, pwy, edge_type])
-    if new_edge not in edges:
+    if new_edge not in all_edges:
+        all_edges[new_edge] = 0
+    
         
 
 # add edges to graph from connnected component from pathway pwy
@@ -86,20 +87,66 @@ def add_edges_from_component(component, pwy):
                for r in right:
                    if (l not in excluded_compounds) and (r not in excluded_compounds):
                        add_edge(l, r, rxn, pwy, "component")
-    for pwy in all_edges:
-        print pwy
-        for rxn in all_edges[pwy]:
-            print "\t", rxn
-            for source in 
+    
+
+# create the microdex file
+def create_micro_dex_file(cyc, out_fh):
+    header = "\t".join(["PWY_NAME","PWY_COMMON_NAME","NUM_REACTIONS","NUM_COVERED_REACTIONS","ORF_COUNT"]) + "\n"
+    
+    # get all base pathways
+    pwys = cyc.all_pathways(selector='all', base=True)
+    
+    for pwy in pwys:
+        orfs_of_pathway = cyc.genes_of_pathway(pwy)
+        orfs_of_pathway = map(clean_ptools_output, orfs_of_pathway)
+        rxns_of_pwy = [cyc.get_slot_value(pwy, "REACTION-LIST")]
+        pathway_common_name = cyc.get_name_string(pwy)
+        num_reactions = len(rxns_of_pwy)
+        num_orfs = len(orfs_of_pathway)
+        
+        num_covered_rxns = 0
+        num_genes = 0
+        orf_strings = []
+        
+        for rxn in rxns_of_pwy:
+            rxn_orfs = cyc.genes_of_reaction(rxn)
+            rxn_orfs = map(clean_ptools_output, rxn_orfs)
+            if len(rxn_orfs) > 0:
+                num_covered_rxns += 1
+        pwy_line = ["PATHWAY:", clean_ptools_output(pwy), pathway_common_name, str(num_reactions), str(num_orfs)]
+        pwy_line = pwy_line + orfs_of_pathway
+        print "\t".join(pwy_line)
+        
+        for rxn in rxns_of_pwy:
+             rxn_orfs = cyc.genes_of_reaction(rxn)
+             rxn_orfs = map(clean_ptools_output, rxn_orfs)
+             common_name = cyc.get_slot_value(pwy, "common-name")
+             rxn_line = ["RXN:", clean_ptools_output(rxn), str(len(rxn_orfs))] + rxn_orfs
+             print "\t".join(rxn_line)
 
 # the main function
 def main():
    (opts, args) = parser.parse_args()
    check_arguments(opts)
    
-   # connect to pathway tools
+   # print available organisms
+   if opts.list_organisms:
+       org_list = pythoncyc.all_orgids()
+       print clean_ptools_output(org_list)
+       exit()   
+   
+   # connect to ePGDB
    global cyc
-   cyc = pythoncyc.select_organism(opts.ptools_org)
+   try:
+       cyc = pythoncyc.select_organism(opts.ptools_org)
+   except:
+       print "Could not connect to Pathway Tools. Run pathway-tools/pathway-tools -lisp -python-local-only"
+   
+   # create compatible pathway file for MicroDex
+   if opts.micro_dex:
+       create_micro_dex_file(cyc, opts.output_file)
+       exit()
+   
    
    global excluded_compounds # list of uninformative compounds
    excluded_compounds = {}
@@ -113,18 +160,14 @@ def main():
            if metabolite[1] >= 1000:
                excluded_compounds[metabolite[0]] = metabolite[1]
    
-   # print available organisms
-   if opts.list_organisms:
-       org_list = pythoncyc.all_orgids()
-       print clean_ptools_output(org_list)
-       exit()
+
    
    # list of graph edges
    global all_edges
    all_edges = {}
    
    # get all pathways
-   pwys = cyc.all_pathways()
+   pwys = cyc.all_pathways(selector='all', base=True)
    total_pwys = len(pwys)
    pwy_count = 0
    for pwy in pwys:
