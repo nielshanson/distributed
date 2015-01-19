@@ -90,11 +90,15 @@ def add_edges_from_component(component, pwy):
     
 
 # create the microdex file
-def create_micro_dex_file(cyc, out_fh):
-    header = "\t".join(["PWY_NAME","PWY_COMMON_NAME","NUM_REACTIONS","NUM_COVERED_REACTIONS","ORF_COUNT"]) + "\n"
+def create_micro_dex_file(cyc, out_file):
+    header = "\t".join(["PWY_NAME","PWY_COMMON_NAME","NUM_REACTIONS","NUM_COVERED_REACTIONS","ORF_COUNT"])
     
     # get all base pathways
     pwys = cyc.all_pathways(selector='all', base=True)
+    
+    # open output file
+    output_fh = open(out_file, "w")
+    output_fh.write(header + "\n")
     
     for pwy in pwys:
         orfs_of_pathway = cyc.genes_of_pathway(pwy)
@@ -115,14 +119,113 @@ def create_micro_dex_file(cyc, out_fh):
                 num_covered_rxns += 1
         pwy_line = ["PATHWAY:", clean_ptools_output(pwy), pathway_common_name, str(num_reactions), str(num_orfs)]
         pwy_line = pwy_line + orfs_of_pathway
-        print "\t".join(pwy_line)
+        output_fh.write("\t".join(pwy_line) + "\n")
         
         for rxn in rxns_of_pwy:
              rxn_orfs = cyc.genes_of_reaction(rxn)
              rxn_orfs = map(clean_ptools_output, rxn_orfs)
              common_name = cyc.get_slot_value(pwy, "common-name")
              rxn_line = ["RXN:", clean_ptools_output(rxn), str(len(rxn_orfs))] + rxn_orfs
-             print "\t".join(rxn_line)
+             output_fh.write("\t".join(rxn_line) + "\n")
+    
+    # close the file
+    output_fh.close()
+
+
+# Graph data structures
+edges = {}
+verticies = {}
+reactions = {}
+excluded_substrates = {}
+substrate_to_verticies = {}
+
+# global id index
+id_index = 0 
+id_to_str = {}
+str_to_id = {}
+
+def lookup_id(id):
+    if id in id_to_str:
+        return id_to_str[id]
+    return None
+
+def lookup_str(str):
+    if str in str_to_id:
+        return str_to_id[str]
+    return None
+
+def construct_graph(cyc):
+    # get all pathways
+    pwys = cyc.all_pathways(selector='all', base=True)
+    for pwy in pwys:
+        components = cyc.pathway_components(pwy)
+        for comp in components[0]:
+            for rxn in comp[::-1]:
+                create_edge(rxn)
+
+def remove_trival_substrates(substrates):
+    clean_substrates = []
+    for substrate in substrates:
+        if substrate not in excluded_substrates:
+            clean_substrates.append(substrate)
+    return clean_substrates
+
+
+def create_ids(ptools_str_list):
+    global id_index
+    for ptools_str in ptools_str_list:
+        if ptools_str not in str_to_id:
+            str_to_id[ptools_str] = id_index
+            id_to_str[id_index] = ptools_str
+            id_index += 1
+    return map(lookup_str, ptools_str_list)
+    
+        
+def lvertex(rxn_id):
+    l_substrates = [cyc.get_slot_value(rxn_id, "LEFT")]
+    l_substrates = remove_trival_substrates(l_substrates)
+    l_substrates.sort()
+    l_substrate_ids = create_ids(l_substrates)
+    l_substrate_id = "_".join(map(str, l_substrate_ids))
+    if l_substrate_id not in verticies:
+        # add new vertex to network
+        verticies[l_substrate_id] = l_substrates
+        # link substrates to vertex
+        for substrate in l_substrates:
+            if substrate not in substrate_to_verticies:
+                substrate_to_verticies[substrate] = []
+            substrate_to_verticies[substrate].append(l_substrate_id)
+    
+    return l_substrate_id
+
+def rvertex(rxn_id):
+    r_substrates = [cyc.get_slot_value(rxn_id, "RIGHT")]
+    r_substrates = remove_trival_substrates(r_substrates)
+    r_substrates.sort()
+    r_substrate_ids = create_ids(r_substrates)
+    r_substrate_id = "_".join(map(str, r_substrate_ids))
+    if r_substrate_id not in verticies:
+        # add new vertex to network
+        verticies[r_substrate_id] = r_substrates
+        # link substrates to vertex
+        for substrate in r_substrates:
+            if substrate not in substrate_to_verticies:
+                substrate_to_verticies[substrate] = []
+            substrate_to_verticies[substrate].append(r_substrate_id)
+    return r_substrate_id
+
+def create_edge(rxn_id):
+    vertex_id_left = lvertex(rxn_id)
+    vertex_id_right = rvertex(rxn_id)
+    edge_id = "_".join([vertex_id_left, vertex_id_right])
+    if edge_id not in edges:
+        edges[edge_id] = {"left"  : vertex_id_left,\
+                          "right" : vertex_id_right,\
+                          "rxns" : [rxn_id]}
+    else:
+        # check to see if new reaction in list
+        if rxn_id not in edges[edge_id]["rxns"]:
+            edges[edge_id]["rxns"].append(rxn_id)
 
 # the main function
 def main():
@@ -132,8 +235,10 @@ def main():
    # print available organisms
    if opts.list_organisms:
        org_list = pythoncyc.all_orgids()
-       print clean_ptools_output(org_list)
-       exit()   
+       org_list = map(clean_ptools_output, org_list)
+       for organism in org_list:
+           print organism
+       exit()
    
    # connect to ePGDB
    global cyc
@@ -147,70 +252,71 @@ def main():
        create_micro_dex_file(cyc, opts.output_file)
        exit()
    
-   
-   global excluded_compounds # list of uninformative compounds
-   excluded_compounds = {}
-   
-   if os.path.exists("/tmp/metabolite_count.pk"):
-       fh = open("/tmp/metabolite_count.pk", 'r')
+   if os.path.exists("metabolite_count.pk"):
+       fh = open("metabolite_count.pk", 'r')
        metabolite_count = pickle.load(fh)
        fh.close()
        sorted_metabolite_count = sorted(metabolite_count.items(), key=operator.itemgetter(1), reverse=True)
        for metabolite in sorted_metabolite_count[0:500]:
            if metabolite[1] >= 1000:
-               excluded_compounds[metabolite[0]] = metabolite[1]
+               excluded_substrates[metabolite[0]] = metabolite[1]
+       
+   print "Constructing Graph"
+   construct_graph(cyc)
+   print len(edges), "edges"
+   print len(verticies), "verticies"
+   print len(substrate_to_verticies), "substrate_to_verticies"
+   print id_index, "id_index"
+   print "Done"
    
-
    
-   # list of graph edges
-   global all_edges
-   all_edges = {}
+   exit()
    
    # get all pathways
-   pwys = cyc.all_pathways(selector='all', base=True)
-   total_pwys = len(pwys)
-   pwy_count = 0
-   for pwy in pwys:
-       print cyc.get_name_string(pwy), pwy_count, "of", total_pwys
-       try:
-           # get connected components
-           connected_components = cyc.pathway_components(pwy)
-           for component in connected_components[0]:
-               add_edges_from_component(component, pwy)
-           exit()
-           rxn_list = cyc.get_slot_values(pwy, "REACTION-LIST")
-           for i in range(len(rxn_list)):
-               for j in range(i+1, len(rxn_list)):
-                   # test if pathway reactions should be connected
-                   #print rxn_list[i], rxn_list[j], p, "path"
-                   if test_for_edge(rxn_list[i], rxn_list[j]):
-                       # add edge
-                       # print rxn_list[i], rxn_list[j], p, "path"
-                       continue
-           pwy_count += 1
-       except Exception,e:
-           print "Warning: Could not get reactions from pathway " + cyc.get_name_string(pwy)
-           print str(e)
-           exit()
+   # pwys = cyc.all_pathways(selector='all', base=True)
+   # total_pwys = len(pwys)
+   # pwy_count = 0
+   # for pwy in pwys:
+   #     print cyc.get_name_string(pwy), pwy_count, "of", total_pwys
+   #     try:
+   #         # get connected components
+   #         connected_components = cyc.pathway_components(pwy)
+   #         for component in connected_components[0]:
+   #             add_edges_from_component(component, pwy)
+   #         exit()
+   #         rxn_list = cyc.get_slot_values(pwy, "REACTION-LIST")
+   #         for i in range(len(rxn_list)):
+   #             for j in range(i+1, len(rxn_list)):
+   #                 # test if pathway reactions should be connected
+   #                 #print rxn_list[i], rxn_list[j], p, "path"
+   #                 if test_for_edge(rxn_list[i], rxn_list[j]):
+   #                     # add edge
+   #                     # print rxn_list[i], rxn_list[j], p, "path"
+   #                     continue
+   #         pwy_count += 1
+   #     except Exception,e:
+   #         print "Warning: Could not get reactions from pathway " + cyc.get_name_string(pwy)
+   #         print str(e)
+   #         exit()
            # rxns = cyc.get_slot_values(p, "REACTION-LIST")
            # for rxn in rxns:
            #     print "LEFT", cyc.get_slot_values(rxn, "LEFT")
            #     print "RIGHT", cyc.get_slot_values(rxn, "RIGHT")
            # continue
-   metabolite_count_out = open("/tmp/metabolite_count.pk", "w")
-   pickle.dump(metabolite_count, metabolite_count_out)
-   metabolite_count_out.close()
-   sorted_metabolite_count = sorted(metabolite_count.items(), key=operator.itemgetter(1), reverse=True)
-   
-   for metabolite in sorted_metabolite_count[0:20]:
-       print metabolite
-   exit()
-   for r in reactions.instances:
-       print r.frameid
-       left = set(r.left)
-       right = set(r.right)
-       
-       print left.intersection(right)
+   # metabolite_count_out = open("/tmp/metabolite_count.pk", "w")
+   # pickle.dump(metabolite_count, metabolite_count_out)
+   # metabolite_count_out.close()
+   # sorted_metabolite_count = sorted(metabolite_count.items(), key=operator.itemgetter(1), reverse=True)
+   #
+   # for metabolite in sorted_metabolite_count[0:20]:
+   #     print metabolite
+   # exit()
+   # for r in reactions.instances:
+   #     print r.frameid
+   #     left = set(r.left)
+   #     right = set(r.right)
+   #
+   #     print left.intersection(right)
        
 
 
