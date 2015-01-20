@@ -89,6 +89,12 @@ def add_edges_from_component(component, pwy):
                        add_edge(l, r, rxn, pwy, "component")
     
 
+def convert_orf_ids_to_common_name(rxn_orfs):
+    rxn_orfs2 = []
+    for rxn_orf in rxn_orfs:
+        rxn_orfs2.append(cyc.get_slot_value(rxn_orf, "common-name"))
+    return rxn_orfs2
+
 # create the microdex file
 def create_micro_dex_file(cyc, out_file):
     header = "\t".join(["PWY_NAME","PWY_COMMON_NAME","NUM_REACTIONS","NUM_COVERED_REACTIONS","ORF_COUNT"])
@@ -102,6 +108,7 @@ def create_micro_dex_file(cyc, out_file):
     
     for pwy in pwys:
         orfs_of_pathway = cyc.genes_of_pathway(pwy)
+        orfs_of_pathway = convert_orf_ids_to_common_name(orfs_of_pathway)
         orfs_of_pathway = map(clean_ptools_output, orfs_of_pathway)
         rxns_of_pwy = cyc.get_slot_values(pwy, "REACTION-LIST")
         pathway_common_name = cyc.get_name_string(pwy)
@@ -112,6 +119,7 @@ def create_micro_dex_file(cyc, out_file):
         orf_strings = []
         for rxn in rxns_of_pwy:
             rxn_orfs = cyc.genes_of_reaction(rxn)
+            rxn_orfs = convert_orf_ids_to_common_name(rxn_orfs)
             rxn_orfs = map(clean_ptools_output, rxn_orfs)
             if len(rxn_orfs) > 0:
                 num_covered_rxns += 1
@@ -121,6 +129,7 @@ def create_micro_dex_file(cyc, out_file):
         
         for rxn in rxns_of_pwy:
              rxn_orfs = cyc.genes_of_reaction(rxn)
+             rxn_orfs = convert_orf_ids_to_common_name(rxn_orfs)
              rxn_orfs = map(clean_ptools_output, rxn_orfs)
              common_name = cyc.get_slot_value(pwy, "common-name")
              rxn_line = ["RXN:", clean_ptools_output(rxn), clean_ptools_output(cyc.get_name_string(rxn)), str(len(rxn_orfs))] + rxn_orfs

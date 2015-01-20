@@ -29,7 +29,7 @@ objective = re.compile(r'Objective.*=\s*(\d*)')
 
 usage=  sys.argv[0] + " --ncbi-file ncbi_taxfile --pathways-file pathways_list  --enzymes-file enzymes_file"""
 
-glpsol = "/usr/local/bin/glpsol"
+glpsol = "/opt/local/bin/glpsol"
 
 parser = OptionParser(usage)
 parser.add_option("--ncbi-file", dest="ncbi_file",
@@ -91,7 +91,6 @@ def read_taxonomy_list(filename,namesdict):
             for name in names:
                 namesdict[name]=1
 
-
 def read_enzymes_list(enzymes_file, enzymes):
     enzymesfile = open(enzymes_file, 'r')
     lines = enzymesfile.readlines()
@@ -103,7 +102,8 @@ def read_enzymes_list(enzymes_file, enzymes):
           fields = [ x.strip() for x in line.split('\t') ]
           if len(fields[0]) >= 6:
              enzyme_name = fields[0]
-             taxonomy = fields[6]
+             taxonomy = fields[8]
+             taxonomy = re.sub(" \(.*?\)$", "", taxonomy)
              enzymes[enzyme_name] = taxonomy
 
 def get_buffer():
@@ -193,7 +193,7 @@ def print_taxonomy_information(pathways, ranked_pathways, enzymes, lca):
             print key
             taxons = []
             for rxn in pathways[key]['rxns']:   
-               for enzyme in pathways[key]['rxns'][rxn]:   
+               for enzyme in pathways[key]['rxns'][rxn]:
                     taxons.append(pathways[key]['rxns'][rxn][enzyme])
                     
             lca.build_independent_taxons(taxons)
@@ -206,14 +206,17 @@ def print_taxonomy_information(pathways, ranked_pathways, enzymes, lca):
                  for child in lca.get_independent_parent(pathways[key]['rxns'][rxn][enzyme]):
                     printf("\t%s", child)
                  printf(" ]\n");
-                
-             
+                           
        #      print '      '+ enzyme + '  ' + pathways[key]['rxns'][rxn][enzyme]
 def add_taxonomy_information(pathways, enzymes):
-    for  key in pathways:
+    print "add_taxonomy_information:"
+    for key in pathways:
+        print key
         for rxn in pathways[key]['rxns']:   
            for enzyme in pathways[key]['rxns'][rxn]:  # get orfs for  
              if enzyme in enzymes: # key to taxonomy
+                print pathways[key]['rxns'][rxn][enzyme]
+                print enzymes[enzyme]
                 pathways[key]['rxns'][rxn][enzyme] = enzymes[enzyme] # put taxonomy on reaction
              
        #      print '      '+ enzyme + '  ' + pathways[key]['rxns'][rxn][enzyme]
@@ -233,7 +236,8 @@ def compute_min_species(pathways,p, lca):
     for rxn in pathways[p]['rxns']:   
        for enzyme in pathways[p]['rxns'][rxn]:   
             taxons.append(pathways[p]['rxns'][rxn][enzyme])
-
+    
+    print taxons
     indtaxons = lca.get_independent_taxons(taxons)
     
     #create X variables 
@@ -267,12 +271,12 @@ def compute_min_species(pathways,p, lca):
     # compute a hash from taxons to reactions
     taxons_reactions = {}
     for rxn in pathways[p]['rxns']:
-       if pathways[p]['rxns'][rxn] :  # consider only reactions that have at least one ORF
-           for enzyme in  pathways[p]['rxns'][rxn]: 
+       if pathways[p]['rxns'][rxn]: # consider only reactions that have at least one ORF
+           for enzyme in pathways[p]['rxns'][rxn]:
               for S in lca.get_independent_parent(pathways[p]['rxns'][rxn][enzyme]):
-                  if not S in taxons_reactions: 
+                  if not S in taxons_reactions:
                      taxons_reactions[S] = {}
-                  taxons_reactions[S][rxn] = True 
+                  taxons_reactions[S][rxn] = True
     
     # write the rows
     fprintf(mpsinput, "ROWS\n")
@@ -361,12 +365,16 @@ def main(argv):
     namesdict = {} # hash of all the names of the NCBI Taxonomy tree.
     read_taxonomy_list(opts.ncbi_file, namesdict)
     
+    enzymes={} # read to taxonomic annotation mapping
+    read_enzymes_list(opts.enzymes_file, enzymes)
+    
+    pathways={} # pathway -> rxns -> orfs
+    read_pathways_list(opts.pathways_file, pathways)
+    print pathways
+    exit()
     # create NCBI Taxonomy tree
     lca = SpeciesComputation(opts.ncbi_file)
     # lca.construct_tree()
-    
-    enzymes={} # read to taxonomic annotation mapping
-    read_enzymes_list(opts.enzymes_file, enzymes)
     
     # Example structure
     # 'GLUTORN-PWY': {'common_name': 'ornithine biosynthesis',
@@ -397,11 +405,9 @@ def main(argv):
     #                     }
     #                 }
     
-    pathways={} # pathway -> rxns -> orfs
-    read_pathways_list(opts.pathways_file, pathways)
-    
     # put taxonomy from ORF annotation
     add_taxonomy_information(pathways, enzymes)
+    exit()
     
     distrib_pathways = {}
     for p in pathways:  
