@@ -29,7 +29,7 @@ objective = re.compile(r'Objective.*=\s*(\d*)')
 
 usage=  sys.argv[0] + " --ncbi-file ncbi_taxfile --pathways-file pathways_list  --enzymes-file enzymes_file"""
 
-glpsol = "/opt/local/bin/glpsol"
+glpsol = "/usr/local/bin/glpsol"
 
 parser = OptionParser(usage)
 parser.add_option("--ncbi-file", dest="ncbi_file",
@@ -182,20 +182,20 @@ def read_pathways_list(pathways_file, pathways):
              rxn_common_name = fields[2]
              pathways[pathway_name]['rxns'][rxn_name] = {}
              pathways[pathway_name]['rxns-type'][rxn_name] = fields[3].strip()
-             if len(fields) > 5:
-                 for i in  range(5,len(fields)):
+             if len(fields) > 4:
+                 for i in  range(4,len(fields)):
                      enzyme = fields[i]
                      pathways[pathway_name]['rxns'][rxn_name][enzyme] = True
                        
 
-def print_taxonomy_information(pathways,ranked_pathways, enzymes, lca):
+def print_taxonomy_information(pathways, ranked_pathways, enzymes, lca):
         for  key in ranked_pathways:
             print key
             taxons = []
             for rxn in pathways[key]['rxns']:   
                for enzyme in pathways[key]['rxns'][rxn]:   
                     taxons.append(pathways[key]['rxns'][rxn][enzyme])
-
+                    
             lca.build_independent_taxons(taxons)
 
             for rxn in pathways[key]['rxns']:   
@@ -263,7 +263,7 @@ def compute_min_species(pathways,p, lca):
     for x in valid_reactions:
       reaction_names[x] = 'RXN' + str(i)
       i+=1
-
+    
     # compute a hash from taxons to reactions
     taxons_reactions = {}
     for rxn in pathways[p]['rxns']:
@@ -273,7 +273,7 @@ def compute_min_species(pathways,p, lca):
                   if not S in taxons_reactions: 
                      taxons_reactions[S] = {}
                   taxons_reactions[S][rxn] = True 
-                 
+    
     # write the rows
     fprintf(mpsinput, "ROWS\n")
     str1 = get_buffer()

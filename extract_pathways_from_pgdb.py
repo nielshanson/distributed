@@ -103,15 +103,13 @@ def create_micro_dex_file(cyc, out_file):
     for pwy in pwys:
         orfs_of_pathway = cyc.genes_of_pathway(pwy)
         orfs_of_pathway = map(clean_ptools_output, orfs_of_pathway)
-        rxns_of_pwy = [cyc.get_slot_value(pwy, "REACTION-LIST")]
+        rxns_of_pwy = cyc.get_slot_values(pwy, "REACTION-LIST")
         pathway_common_name = cyc.get_name_string(pwy)
         num_reactions = len(rxns_of_pwy)
         num_orfs = len(orfs_of_pathway)
-        
         num_covered_rxns = 0
         num_genes = 0
         orf_strings = []
-        
         for rxn in rxns_of_pwy:
             rxn_orfs = cyc.genes_of_reaction(rxn)
             rxn_orfs = map(clean_ptools_output, rxn_orfs)
@@ -125,8 +123,9 @@ def create_micro_dex_file(cyc, out_file):
              rxn_orfs = cyc.genes_of_reaction(rxn)
              rxn_orfs = map(clean_ptools_output, rxn_orfs)
              common_name = cyc.get_slot_value(pwy, "common-name")
-             rxn_line = ["RXN:", clean_ptools_output(rxn), str(len(rxn_orfs))] + rxn_orfs
-             output_fh.write("\t".join(rxn_line) + "\n")
+             rxn_line = ["RXN:", clean_ptools_output(rxn), clean_ptools_output(cyc.get_name_string(rxn)), str(len(rxn_orfs))] + rxn_orfs
+             if len(rxn_orfs) > 0:
+                 output_fh.write("\t".join(rxn_line) + "\n")
     
     # close the file
     output_fh.close()
@@ -231,9 +230,9 @@ def create_edge(rxn_id):
 def main():
    (opts, args) = parser.parse_args()
    check_arguments(opts)
-   
    # print available organisms
    if opts.list_organisms:
+       print "Listing Availalbe PGDBs:"
        org_list = pythoncyc.all_orgids()
        org_list = map(clean_ptools_output, org_list)
        for organism in org_list:

@@ -1,0 +1,162 @@
+PWY_NAME	PWY_COMMON_NAME	NUM_REACTIONS	NUM_COVERED_REACTIONS	ORF_COUNT
+PATHWAY:	PYRIDOXSYN-PWY	pyridoxal 5'-phosphate biosynthesis I	8	3	G2T-559	G2T-506	G2T-422
+RXN:	1.1.1.262-RXN	4-phospho-hydroxy-L-threonine + NAD<sup>+</sup>  &rarr;  <i>(2S)</i>-2-amino-3-oxo-4-phosphonooxybutanoate + NADH + H<SUP>+</SUP>	1	G2T-422
+RXN:	PSERTRANSAMPYR-RXN	2-oxo-3-hydroxy-4-phosphobutanoate + L-glutamate  &rarr;  4-phospho-hydroxy-L-threonine + 2-oxoglutarate	1	G2T-506
+RXN:	PDXJ-RXN	1-deoxy-D-xylulose 5-phosphate + 3-amino-1-hydroxyacetone 1-phosphate  &rarr;  pyridoxine 5'-phosphate + phosphate + H<SUP>+</SUP> + 2 H<sub>2</sub>O	1	G2T-559
+PATHWAY:	CITRULLINE-DEG-PWY	citrulline degradation	2	1	G2T-686
+RXN:	ORNCARBAMTRANSFER-RXN	L-ornithine + carbamoyl-phosphate  &harr;  L-citrulline + phosphate + H<SUP>+</SUP>	1	G2T-686
+PATHWAY:	CYSTSYN-PWY	cysteine biosynthesis I	2	1	G2T-571
+RXN:	SERINE-O-ACETTRAN-RXN	L-serine + acetyl-CoA  &rarr;  <i>O</i>-acetyl-L-serine + coenzyme A	1	G2T-571
+PATHWAY:	PWY-7226	guanosine deoxyribonucleotides <i>de novo</i> biosynthesis I	2	1	G2T-687
+RXN:	GDPREDUCT-RXN	GDP + a reduced thioredoxin  &rarr;  dGDP + an oxidized thioredoxin + H<sub>2</sub>O	1	G2T-687
+PATHWAY:	PWY-7222	guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II	4	1	G2T-687
+RXN:	RXN0-748	GDP + a reduced NrdH glutaredoxin-like protein  &rarr;  dGDP + an oxidized NrdH glutaredoxin-like protein + H<sub>2</sub>O	1	G2T-687
+RXN:	GDPREDUCT-RXN	GDP + a reduced thioredoxin  &rarr;  dGDP + an oxidized thioredoxin + H<sub>2</sub>O	1	G2T-687
+PATHWAY:	PWY-6164	3-dehydroquinate biosynthesis I	2	2	G2T-753	G2T-705
+RXN:	DAHPSYN-RXN	phospho<i>enol</i>pyruvate + D-erythrose 4-phosphate + H<sub>2</sub>O  &rarr;  3-deoxy-D-arabino-heptulosonate-7-phosphate + phosphate	1	G2T-705
+RXN:	3-DEHYDROQUINATE-SYNTHASE-RXN	3-deoxy-D-arabino-heptulosonate-7-phosphate  &rarr;  3-dehydroquinate + phosphate	1	G2T-753
+PATHWAY:	DETOX1-PWY	superoxide radicals degradation	2	1	G2T-577
+RXN:	SUPEROX-DISMUT-RXN	2 superoxide + 2 H<SUP>+</SUP>  &rarr;  hydrogen peroxide + oxygen	1	G2T-577
+PATHWAY:	PWY0-1021	alanine biosynthesis III	1	4	G2T-636	G2T-634	G2T-557	G2T-742
+RXN:	RXN0-308	an [L-cysteine desulfurase]-L-cysteine + L-cysteine  &rarr;  an [L-cysteine desulfurase] L-cysteine persulfide + L-alanine	4	G2T-742	G2T-636	G2T-634	G2T-557
+PATHWAY:	HOMOSERSYN-PWY	homoserine biosynthesis	3	3	G2T-736	G2T-508	G2T-725
+RXN:	HOMOSERDEHYDROG-RXN	L-aspartate-semialdehyde + NAD(P)H + H<SUP>+</SUP>  &rarr;  L-homoserine + NAD(P)<sup>+</sup>	1	G2T-725
+RXN:	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	L-aspartyl-4-phosphate + NADPH + H<SUP>+</SUP>  &rarr;  L-aspartate-semialdehyde + NADP<sup>+</sup> + phosphate	1	G2T-508
+RXN:	ASPARTATEKIN-RXN	L-aspartate + ATP  &rarr;  L-aspartyl-4-phosphate + ADP	1	G2T-736
+PATHWAY:	PWY0-662	PRPP biosynthesis I	1	2	G2T-780	G2T-553
+RXN:	PRPPSYN-RXN	D-ribose 5-phosphate + ATP  =  5-phospho-&alpha;-D-ribose 1-diphosphate + AMP + H<SUP>+</SUP>	2	G2T-780	G2T-553
+PATHWAY:	PWY-5	canavanine biosynthesis	4	1	G2T-686
+RXN:	RXN-9	L-canaline + carbamoyl-phosphate  &rarr;  O-ureidohomoserine + phosphate	1	G2T-686
+PATHWAY:	PWY0-501	lipoate biosynthesis and incorporation I	2	2	G2T-484	G2T-483
+RXN:	RXN0-947	an octanoyl-[acp] + a [lipoyl-carrier protein]-L-lysine  &rarr;  a [lipoyl-carrier protein] <i>N<sup>6</sup></i>-octanoyl-L-lysine + a <i>holo</i>-[acyl-carrier protein] + H<SUP>+</SUP>	1	G2T-483
+RXN:	RXN0-949	a [lipoyl-carrier protein] <i>N<sup>6</sup></i>-octanoyl-L-lysine + 2 <i>S</i>-adenosyl-L-methionine + 2 a sulfurated [sulfur carrier]  &rarr;  a [lipoyl-carrier protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + 2 5'-deoxyadenosine + 2 L-methionine + 2 an unsulfurated [sulfur carrier]	1	G2T-484
+PATHWAY:	LEUSYN-PWY	leucine biosynthesis	6	3	G2T-696	G2T-718	G2T-695
+RXN:	RXN-8991	2-isopropylmaleate + H<sub>2</sub>O  &rarr;  (2<i>R</i>,3<i>S</i>)-3-isopropylmalate	1	G2T-695
+RXN:	2-ISOPROPYLMALATESYN-RXN	3-methyl-2-oxobutanoate + acetyl-CoA + H<sub>2</sub>O  &rarr;  (2<i>S</i>)-2-isopropylmalate + coenzyme A + H<SUP>+</SUP>	1	G2T-718
+RXN:	3-ISOPROPYLMALISOM-RXN	(2<i>S</i>)-2-isopropylmalate  &rarr;  2-isopropylmaleate + H<sub>2</sub>O	1	G2T-695
+RXN:	3-ISOPROPYLMALDEHYDROG-RXN	(2<i>R</i>,3<i>S</i>)-3-isopropylmalate + NAD<sup>+</sup>  &rarr;  (2<i>S</i>)-2-isopropyl-3-oxosuccinate + NADH + H<SUP>+</SUP>	1	G2T-696
+PATHWAY:	PWY-6168	flavin biosynthesis III (fungi)	9	2	G2T-486	G2T-460
+RXN:	RIBOFLAVIN-SYN-RXN	2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H<SUP>+</SUP>  &rarr;  5-amino-6-(D-ribitylamino)uracil + riboflavin	1	G2T-460
+RXN:	LUMAZINESYN-RXN	5-amino-6-(D-ribitylamino)uracil + 1-deoxy-L-glycero-tetrulose 4-phosphate  &rarr;  6,7-dimethyl-8-(1-D-ribityl)lumazine + phosphate + H<SUP>+</SUP> + 2 H<sub>2</sub>O	1	G2T-486
+PATHWAY:	PWY-7219	adenosine ribonucleotides <i>de novo</i> biosynthesis	4	1	G2T-427
+RXN:	ADENYL-KIN-RXN	ATP + AMP  &rarr;  2 ADP	1	G2T-427
+PATHWAY:	PWY-6167	flavin biosynthesis II (archaea)	10	2	G2T-486	G2T-460
+RXN:	RIBOFLAVIN-SYN-RXN	2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H<SUP>+</SUP>  &rarr;  5-amino-6-(D-ribitylamino)uracil + riboflavin	1	G2T-460
+RXN:	LUMAZINESYN-RXN	5-amino-6-(D-ribitylamino)uracil + 1-deoxy-L-glycero-tetrulose 4-phosphate  &rarr;  6,7-dimethyl-8-(1-D-ribityl)lumazine + phosphate + H<SUP>+</SUP> + 2 H<sub>2</sub>O	1	G2T-486
+PATHWAY:	PWY-7388	octanoyl-ACP biosynthesis (mitochondria, yeast)	9	4	G2T-610	G2T-541	G2T-482	G2T-492
+RXN:	MALONYL-COA-ACP-TRANSACYL-RXN	a <i>holo</i>-[acyl-carrier protein] + malonyl-CoA  &rarr;  a malonyl-[acp] + coenzyme A	1	G2T-492
+RXN:	ACETYL-COA-CARBOXYLTRANSFER-RXN	ATP + acetyl-CoA + hydrogen carbonate  &rarr;  malonyl-CoA + ADP + phosphate + H<SUP>+</SUP>	3	G2T-610	G2T-541	G2T-482
+PATHWAY:	RIBOSYN2-PWY	flavin biosynthesis I (bacteria and plants)	9	2	G2T-460	G2T-486
+RXN:	LUMAZINESYN-RXN	5-amino-6-(D-ribitylamino)uracil + 1-deoxy-L-glycero-tetrulose 4-phosphate  &rarr;  6,7-dimethyl-8-(1-D-ribityl)lumazine + phosphate + H<SUP>+</SUP> + 2 H<sub>2</sub>O	1	G2T-486
+RXN:	RIBOFLAVIN-SYN-RXN	2 6,7-dimethyl-8-(1-D-ribityl)lumazine + H<SUP>+</SUP>  &rarr;  5-amino-6-(D-ribitylamino)uracil + riboflavin	1	G2T-460
+PATHWAY:	PWY0-1479	tRNA processing	10	1	G2T-397
+RXN:	3.1.26.5-RXN	a tRNA precursor with a 5' extension and a short 3' extension + H<sub>2</sub>O  &rarr;  a tRNA precursor with a short 3' extension + a single-stranded RNA	1	G2T-397
+RXN:	RXN0-6480	a tRNA precursor with a 5' extension + H<sub>2</sub>O  &rarr;  an uncharged tRNA + a single-stranded RNA	1	G2T-397
+PATHWAY:	TRPSYN-PWY	tryptophan biosynthesis	6	4	G2T-463	G2T-738	G2T-464	G2T-465
+RXN:	RXN0-2381	(1<i>S</i>,2<i>R</i>)-1-C-(indol-3-yl)glycerol 3-phosphate  &rarr;  indole + D-glyceraldehyde 3-phosphate	2	G2T-465	G2T-464
+RXN:	RXN0-2382	L-serine + indole  &rarr;  L-tryptophan + H<sub>2</sub>O	1	G2T-464
+RXN:	PRTRANS-RXN	anthranilate + 5-phospho-&alpha;-D-ribose 1-diphosphate  &rarr;  <i>N</i>-(5-phosphoribosyl)-anthranilate + diphosphate	1	G2T-738
+RXN:	PRAISOM-RXN	<i>N</i>-(5-phosphoribosyl)-anthranilate  &rarr;  1-(o-carboxyphenylamino)-1'-deoxyribulose 5'-phosphate	1	G2T-463
+PATHWAY:	PANTO-PWY	phosphopantothenate biosynthesis I	4	2	G2T-618	G2T-619
+RXN:	3-CH3-2-OXOBUTANOATE-OH-CH3-XFER-RXN	a 5,10-methylene-tetrahydrofolate + 3-methyl-2-oxobutanoate + H<sub>2</sub>O  &rarr;  2-dehydropantoate + a tetrahydrofolate	1	G2T-619
+RXN:	PANTOATE-BETA-ALANINE-LIG-RXN	&beta;-alanine + (R)-pantoate + ATP  &rarr;  (<i>R</i>)-pantothenate + AMP + diphosphate + H<SUP>+</SUP>	1	G2T-618
+PATHWAY:	PWY-6012-1	acyl carrier protein metabolism II (mammalian)	1	2	G2T-558	G2T-395
+RXN:	HOLO-ACP-SYNTH-RXN	an apo-[acp] + coenzyme A  &rarr;  adenosine 3',5'-bisphosphate + a <i>holo</i>-[acyl-carrier protein]	2	G2T-558	G2T-395
+PATHWAY:	PWY-5189	tetrapyrrole biosynthesis II (from glycine)	4	2	G2T-405	G2T-404
+RXN:	UROGENIIISYN-RXN	hydroxymethylbilane  &rarr;  uroporphyrinogen-III + H<sub>2</sub>O	1	G2T-404
+RXN:	OHMETHYLBILANESYN-RXN	4 porphobilinogen + H<sub>2</sub>O  &rarr;  4 ammonium + hydroxymethylbilane	1	G2T-405
+PATHWAY:	PWY-5188	tetrapyrrole biosynthesis I (from glutamate)	6	2	G2T-404	G2T-405
+RXN:	OHMETHYLBILANESYN-RXN	4 porphobilinogen + H<sub>2</sub>O  &rarr;  4 ammonium + hydroxymethylbilane	1	G2T-405
+RXN:	UROGENIIISYN-RXN	hydroxymethylbilane  &rarr;  uroporphyrinogen-III + H<sub>2</sub>O	1	G2T-404
+PATHWAY:	PWY-5101	isoleucine biosynthesis II	8	2	G2T-695	G2T-717
+RXN:	ACETOOHBUTREDUCTOISOM-RXN	(<i>S</i>)-2-aceto-2-hydroxybutanoate + NADPH + H<SUP>+</SUP>  &rarr;  (<i>R</i>)-2,3-dihydroxy-3-methylpentanoate + NADP<sup>+</sup>	1	G2T-717
+RXN:	RXN-7744	citraconate + H<sub>2</sub>O  &rarr;  (2R,3S)-3-methylmalate	1	G2T-695
+RXN:	R-2-METHYLMALATE-DEHYDRATASE-RXN	(R)-citramalate  &rarr;  citraconate + H<sub>2</sub>O	1	G2T-695
+PATHWAY:	SERSYN-PWY	serine biosynthesis	3	1	G2T-506
+RXN:	PSERTRANSAM-RXN	L-glutamate + 3-phospho-hydroxypyruvate  &rarr;  3-phospho-L-serine + 2-oxoglutarate	1	G2T-506
+PATHWAY:	HOMOSER-THRESYN-PWY	threonine biosynthesis from homoserine	2	1	G2T-699
+RXN:	HOMOSERKIN-RXN	L-homoserine + ATP  &rarr;  O-phospho-L-homoserine + ADP + H<SUP>+</SUP>	1	G2T-699
+PATHWAY:	PWY-6654	phosphopantothenate biosynthesis III	4	1	G2T-619
+RXN:	RXN-15635	3-methyl-2-oxobutanoate + 5,10-methylene-tetrahydromethanopterin + H<sub>2</sub>O  &rarr;  2-dehydropantoate + tetrahydromethanopterin	1	G2T-619
+PATHWAY:	VALSYN-PWY	valine biosynthesis	4	1	G2T-717
+RXN:	ACETOLACTREDUCTOISOM-RXN	(<i>S</i>)-2-acetolactate + NADPH + H<SUP>+</SUP>  &rarr;  (<i>R</i>)-2,3-dihydroxy-3-methylbutanoate + NADP<sup>+</sup>	1	G2T-717
+PATHWAY:	PWY66-373	sucrose degradation V (sucrose &alpha;-glucosidase)	6	2	G2T-535	G2T-573
+RXN:	TRIOSEPISOMERIZATION-RXN	D-glyceraldehyde 3-phosphate  &harr;  dihydroxyacetone phosphate	1	G2T-573
+RXN:	RXN-8631	&beta;-D-fructofuranose 1-phosphate  &rarr;  dihydroxyacetone phosphate + D-glyceraldehyde	1	G2T-535
+PATHWAY:	PWY-6700	queuosine biosynthesis	4	1	G2T-631
+RXN:	RXN0-1342	a 7-aminomethyl-7-deazaguanosine<sup>34</sup> in tRNA + <i>S</i>-adenosyl-L-methionine  &rarr;  an epoxyqueuosine<sup>34</sup> in tRNA + adenine + L-methionine + 2 H<SUP>+</SUP>	1	G2T-631
+PATHWAY:	PWY-6163	chorismate biosynthesis from 3-dehydroquinate	6	6	G2T-732	G2T-712	G2T-754	G2T-623	G2T-546	G2T-540
+RXN:	3-DEHYDROQUINATE-DEHYDRATASE-RXN	3-dehydroquinate  &rarr;  3-dehydroshikimate + H<sub>2</sub>O	1	G2T-540
+RXN:	SHIKIMATE-5-DEHYDROGENASE-RXN	3-dehydroshikimate + NADPH + H<SUP>+</SUP>  &rarr;  shikimate + NADP<sup>+</sup>	1	G2T-546
+RXN:	SHIKIMATE-KINASE-RXN	shikimate + ATP  &rarr;  shikimate 3-phosphate + ADP + H<SUP>+</SUP>	2	G2T-754	G2T-623
+RXN:	2.5.1.19-RXN	shikimate 3-phosphate + phospho<i>enol</i>pyruvate  &rarr;  5-enolpyruvyl-shikimate 3-phosphate + phosphate	1	G2T-712
+RXN:	CHORISMATE-SYNTHASE-RXN	5-enolpyruvyl-shikimate 3-phosphate  &rarr;  chorismate + phosphate	1	G2T-732
+PATHWAY:	DAPLYSINESYN-PWY	lysine biosynthesis I	9	4	G2T-735	G2T-413	G2T-508	G2T-736
+RXN:	ASPARTATEKIN-RXN	L-aspartate + ATP  &rarr;  L-aspartyl-4-phosphate + ADP	1	G2T-736
+RXN:	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	L-aspartyl-4-phosphate + NADPH + H<SUP>+</SUP>  &rarr;  L-aspartate-semialdehyde + NADP<sup>+</sup> + phosphate	1	G2T-508
+RXN:	DIHYDRODIPICSYN-RXN	pyruvate + L-aspartate-semialdehyde  &rarr;  (2S,4S)-4-hydroxy-2,3,4,5-tetrahydrodipicolinate + H<sub>2</sub>O + H<SUP>+</SUP>	1	G2T-413
+RXN:	TETHYDPICSUCC-RXN	(<i>S</i>)-2,3,4,5-tetrahydrodipicolinate + succinyl-CoA + H<sub>2</sub>O  &rarr;  <i>N</i>-succinyl-2-amino-6-ketopimelate + coenzyme A	1	G2T-735
+PATHWAY:	HISTSYN-PWY	histidine biosynthesis	10	6	G2T-751	G2T-750	G2T-748	G2T-749	G2T-747	G2T-752
+RXN:	ATPPHOSPHORIBOSYLTRANS-RXN	ATP + 5-phospho-&alpha;-D-ribose 1-diphosphate + H<SUP>+</SUP>  &rarr;  1-(5-phospho-&beta;-D-ribosyl)-ATP + diphosphate	1	G2T-752
+RXN:	HISTPRATPHYD-RXN	1-(5-phospho-&beta;-D-ribosyl)-ATP + H<sub>2</sub>O  &rarr;  1-(5-phospho-&beta;-D-ribosyl)-AMP + diphosphate + 2 H<SUP>+</SUP>	1	G2T-747
+RXN:	PRIBFAICARPISOM-RXN	1-(5-phospho-&beta;-D-ribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide  &rarr;  phosphoribulosylformimino-AICAR-P	1	G2T-749
+RXN:	GLUTAMIDOTRANS-RXN	phosphoribulosylformimino-AICAR-P + L-glutamine  &rarr;  L-glutamate + D-erythro-imidazole-glycerol-phosphate + 5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide + H<SUP>+</SUP>	2	G2T-750	G2T-748
+RXN:	IMIDPHOSDEHYD-RXN	D-erythro-imidazole-glycerol-phosphate  &rarr;  imidazole acetol-phosphate + H<sub>2</sub>O	1	G2T-751
+PATHWAY:	PWY-1622	formaldehyde assimilation I (serine pathway)	13	2	G2T-444	G2T-521
+RXN:	2PGADEHYDRAT-RXN	2-phospho-D-glycerate  &harr;  phospho<i>enol</i>pyruvate + H<sub>2</sub>O	1	G2T-521
+RXN:	MALATE--COA-LIGASE-RXN	(<i>S</i>)-malate + ATP + coenzyme A  &harr;  (<i>S</i>)-malyl-CoA + ADP + phosphate	1	G2T-444
+PATHWAY:	THIOREDOX-PWY	thioredoxin pathway	2	1	G2T-688
+RXN:	THIOREDOXIN-REDUCT-NADPH-RXN	an oxidized thioredoxin + NADPH + H<SUP>+</SUP>  &rarr;  a reduced thioredoxin + NADP<sup>+</sup>	1	G2T-688
+PATHWAY:	PWY-7250	[2Fe-2S] iron-sulfur cluster biosynthesis	10	3	G2T-636	G2T-634	G2T-557
+RXN:	RXN-15881	an [L-cysteine desulfurase] + L-cysteine  &rarr;  an <i>S</i>-sulfanyl-[L-cysteine desulfurase] + L-alanine	3	G2T-636	G2T-634	G2T-557
+RXN:	RXN-14386	an <i>S</i>-sulfanyl-[cysteine desulfurase]-<i>S</i>-sulfanyl-[disordered-form scaffold protein] complex  &rarr;  a [cysteine desulfurase]-(<i>S</i>-sulfanyl)<sub>2</sub>-[disordered-form scaffold protein] complex	3	G2T-636	G2T-634	G2T-557
+RXN:	RXN-14385	a [cysteine desulfurase]-<i>S</i>-sulfanyl-[disordered-form scaffold protein] complex + L-cysteine  &rarr;  an <i>S</i>-sulfanyl-[cysteine desulfurase]-<i>S</i>-sulfanyl-[disordered-form scaffold protein] complex + L-alanine	3	G2T-636	G2T-634	G2T-557
+RXN:	RXN-14384	an <i>S</i>-sulfanyl-[cysteine desulfurase]-[disordered-form scaffold protein] complex  &rarr;  a [cysteine desulfurase]-<i>S</i>-sulfanyl-[disordered-form scaffold protein] complex	3	G2T-636	G2T-634	G2T-557
+PATHWAY:	PWY0-1264	biotin-carboxyl carrier protein assembly	4	2	G2T-610	G2T-482
+RXN:	RXN0-5055	ATP + acetyl-CoA + a carboxylated-biotinylated [BCCP dimer] + H<sub>2</sub>O  &rarr;  malonyl-CoA + a biotinylated [BCCP dimer] + ADP + phosphate + H<SUP>+</SUP>	2	G2T-610	G2T-482
+PATHWAY:	PWY-2781	<i>cis</i>-zeatin biosynthesis	5	1	G2T-447
+RXN:	RXN0-6274	dimethylallyl diphosphate + an adenosine<sup>37</sup> in tRNA  &rarr;  <i>N</i><sup>6</sup>-dimethylallyladenosine<sup>37</sup> in tRNA + diphosphate	1	G2T-447
+PATHWAY:	PWY-7382	lipoate biosynthesis and incorporation (pyruvate dehydrogenase and oxoglutarate dehydrogenase, yeast)	5	1	G2T-484
+RXN:	RXN-14959	a [2-oxoglutarate-dehydrogenase E2 protein] N<sup>6</sup>-octanoyl-L-lysine + 2 <i>S</i>-adenosyl-L-methionine + 2 a sulfurated [sulfur carrier]  &rarr;  a [2-oxoglutarate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + 2 L-methionine + 2 5'-deoxyadenosine + 2 an unsulfurated [sulfur carrier] + 2 H<SUP>+</SUP>	1	G2T-484
+RXN:	RXN-14957	a [pyruvate dehydrogenase E2 protein] N<sup>6</sup>-octanoyl-L-lysine + 2 <i>S</i>-adenosyl-L-methionine + 2 a sulfurated [sulfur carrier]  &rarr;  a [pyruvate dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + 2 L-methionine + 2 5'-deoxyadenosine + 2 an unsulfurated [sulfur carrier] + 2 H<SUP>+</SUP>	1	G2T-484
+PATHWAY:	PWY-7381	lipoate biosynthesis and incorporation (glycine cleavage system, yeast)	2	1	G2T-484
+RXN:	RXN-14950	a [glycine-cleavage complex H protein] <i>N<sup>6</sup></i>-octanoyl-L-lysine + 2 <i>S</i>-adenosyl-L-methionine + 2 a sulfurated [sulfur carrier]  &rarr;  a [glycine-cleavage complex H protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + 2 L-methionine + 2 5'-deoxyadenosine + 2 an unsulfurated [sulfur carrier]	1	G2T-484
+PATHWAY:	PWY-6892	thiazole biosynthesis I (E. coli)	7	4	G2T-636	G2T-634	G2T-557	G2T-742
+RXN:	RXN0-308	an [L-cysteine desulfurase]-L-cysteine + L-cysteine  &rarr;  an [L-cysteine desulfurase] L-cysteine persulfide + L-alanine	4	G2T-742	G2T-636	G2T-634	G2T-557
+RXN:	RXN-14382	an [L-cysteine desulfurase] L-cysteine persulfide + a ThiI sulfur-carrier protein  &rarr;  an [L-cysteine desulfurase]-L-cysteine + an <i>S</i>-sulfanyl-[ThiI sulfur-carrier protein]	3	G2T-636	G2T-634	G2T-557
+PATHWAY:	NAGLIPASYN-PWY	lipid IV<sub>A</sub> biosynthesis	6	6	G2T-609	G2T-638	G2T-459	G2T-607	G2T-533	G2T-608
+RXN:	UDPNACETYLGLUCOSAMACYLTRANS-RXN	an (3<i>R</i>)-3-hydroxymyristoyl-[acp] + UDP-<i>N</i>-acetyl-&alpha;-D-glucosamine  &rarr;  UDP-3-<i>O</i>-[(3<i>R</i>)-3-hydroxymyristoyl]-<i>N</i>-acetyl-&alpha;-D-glucosamine + a <i>holo</i>-[acyl-carrier protein]	1	G2T-608
+RXN:	UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-RXN	an (3<i>R</i>)-3-hydroxymyristoyl-[acp] + UDP-3-<i>O</i>-(3-hydroxymyristoyl)-&alpha;-D-glucosamine  &rarr;  UDP-2,3-bis[O-(3<i>R</i>)-3-hydroxymyristoyl]-&alpha;-D-glucosamine + a <i>holo</i>-[acyl-carrier protein] + H<SUP>+</SUP>	2	G2T-607	G2T-533
+RXN:	LIPIDXSYNTHESIS-RXN	UDP-2,3-bis[O-(3<i>R</i>)-3-hydroxymyristoyl]-&alpha;-D-glucosamine + H<sub>2</sub>O  &rarr;  2,3-bis[(3<i>R</i>)-3-hydroxymyristoyl]-&alpha;-D-glucosaminyl 1-phosphate + UMP + 2 H<SUP>+</SUP>	1	G2T-459
+RXN:	TETRAACYLDISACC4KIN-RXN	lipid A disaccharide + ATP  &rarr;  lipid IV<sub>A</sub> + ADP + H<SUP>+</SUP>	1	G2T-638
+RXN:	LIPIDADISACCHARIDESYNTH-RXN	2,3-bis[(3<i>R</i>)-3-hydroxymyristoyl]-&alpha;-D-glucosaminyl 1-phosphate + UDP-2,3-bis[O-(3<i>R</i>)-3-hydroxymyristoyl]-&alpha;-D-glucosamine  &rarr;  lipid A disaccharide + UDP + H<SUP>+</SUP>	1	G2T-609
+PATHWAY:	PWY-6890	4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis	2	1	G2T-674
+RXN:	PYRIMSYN1-RXN	5-amino-1-(5-phospho-&beta;-D-ribosyl)imidazole + <i>S</i>-adenosyl-L-methionine  &rarr;  4-amino-2-methyl-5-phosphomethylpyrimidine + 5'-deoxyadenosine + L-methionine + formate + carbon monoxide + 3 H<SUP>+</SUP>	1	G2T-674
+PATHWAY:	TRNA-CHARGING-PWY	tRNA charging	20	7	G2T-611	G2T-673	G2T-420	G2T-437	G2T-542	G2T-511	G2T-523
+RXN:	GLYCINE--TRNA-LIGASE-RXN	tRNA<SUP>gly</SUP> + glycine + ATP + H<SUP>+</SUP>  &rarr;  glycyl-tRNA<SUP>gly</SUP> + AMP + diphosphate	1	G2T-523
+RXN:	HISTIDINE--TRNA-LIGASE-RXN	tRNA<SUP>his</SUP> + L-histidine + ATP + H<SUP>+</SUP>  &rarr;  L-histidyl-tRNA<SUP>his</SUP> + AMP + diphosphate	1	G2T-511
+RXN:	PHENYLALANINE--TRNA-LIGASE-RXN	tRNA<SUP>phe</SUP> + L-phenylalanine + ATP + H<SUP>+</SUP>  &rarr;  L-phenylalanyl-tRNA<SUP>phe</SUP> + AMP + diphosphate	1	G2T-542
+RXN:	SERINE--TRNA-LIGASE-RXN	tRNA<SUP>ser</SUP> + L-serine + ATP + H<SUP>+</SUP>  &rarr;  L-seryl-tRNA<SUP>ser</SUP> + AMP + diphosphate	1	G2T-437
+RXN:	TRYPTOPHAN--TRNA-LIGASE-RXN	L-tryptophan + tRNA<SUP>trp</SUP> + ATP + H<SUP>+</SUP>  &rarr;  AMP + L-tryptophanyl-tRNA<SUP>trp</SUP> + diphosphate	1	G2T-420
+RXN:	TYROSINE--TRNA-LIGASE-RXN	tRNA<SUP>tyr</SUP> + L-tyrosine + ATP + H<SUP>+</SUP>  &rarr;  L-tyrosyl-tRNA<SUP>tyr</SUP> + AMP + diphosphate	1	G2T-673
+RXN:	GLUTAMINE--TRNA-LIGASE-RXN	tRNA<SUP>gln</SUP> + L-glutamine + ATP + H<SUP>+</SUP>  &rarr;  L-glutaminyl-tRNA<SUP>gln</SUP> + AMP + diphosphate	1	G2T-611
+PATHWAY:	FASYN-ELONG-PWY	fatty acid elongation -- saturated	5	1	G2T-491
+RXN:	3-OXOACYL-ACP-REDUCT-RXN	a 3-oxoacyl-[acp] + NADPH + H<SUP>+</SUP>  &rarr;  a (3<i>R</i>)-3-hydroxyacyl-[acyl-carrier protein] + NADP<sup>+</sup>	1	G2T-491
+PATHWAY:	PWY-5046	2-oxoisovalerate decarboxylation to isobutanoyl-CoA	3	1	G2T-518
+RXN:	2.3.1.168-RXN	an [<i>apo</i> BCAA dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-[2-methylpropanoyl]dihydrolipoyl-L-lysine + coenzyme A  &rarr;  isobutanoyl-CoA + an [<i>apo</i> BCAA dehydrogenase E2 protein] <i>N<sup>6</sup></i>-dihydrolipoyl-L-lysine	1	G2T-518
+RXN:	1.2.4.4-RXN	3-methyl-2-oxobutanoate + an [<i>apo</i> BCAA dehydrogenase E2 protein] <i>N<sup>6</sup></i>-lipoyl-L-lysine + H<SUP>+</SUP>  &rarr;  an [<i>apo</i> BCAA dehydrogenase E2 protein] <i>N<sup>6</sup></i>-<i>S</i>-[2-methylpropanoyl]dihydrolipoyl-L-lysine + CO<SUB>2</SUB>	1	G2T-518
+PATHWAY:	PWY-7353	4-methyl-5(&beta;-hydroxyethyl)thiazole salvage (yeast)	2	1	G2T-675
+RXN:	THI-P-SYN-RXN	4-methyl-5-(2-phosphonooxyethyl)thiazole + 4-amino-2-methyl-5-diphosphomethylpyrimidine + H<SUP>+</SUP>  &rarr;  thiamin phosphate + diphosphate	1	G2T-675
+PATHWAY:	PWY-4702	phytate degradation I	14	1	G2T-556
+RXN:	RXN0-5408	1D-<i>myo</i>-inositol 1-monophosphate + H<sub>2</sub>O  &rarr;  <I>myo</I>-inositol + phosphate	1	G2T-556
+PATHWAY:	PWY-6893	thiamin diphosphate biosynthesis II (Bacillus)	2	1	G2T-675
+RXN:	RXN-12610	2-(2-carboxy-4-methylthiazol-5-yl)ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H<SUP>+</SUP>  &rarr;  thiamin phosphate + CO<SUB>2</SUB> + diphosphate	1	G2T-675
+PATHWAY:	PWY-7227	adenosine deoxyribonucleotides <i>de novo</i> biosynthesis	2	1	G2T-687
+RXN:	ADPREDUCT-RXN	dADP + an oxidized thioredoxin + H<sub>2</sub>O  &harr;  ADP + a reduced thioredoxin	1	G2T-687
+PATHWAY:	PWY-6894	thiamin diphosphate biosynthesis I (E. coli)	2	1	G2T-675
+RXN:	RXN-12611	2-[(2<i>R</i>,5<i>Z</i>)-(2-carboxy-4-methylthiazol-5(2<i>H</i>)-ylidene]ethyl phosphate + 4-amino-2-methyl-5-diphosphomethylpyrimidine + 2 H<SUP>+</SUP>  &rarr;  thiamin phosphate + CO<SUB>2</SUB> + diphosphate	1	G2T-675
+PATHWAY:	PWY-2301	<i>myo</i>-inositol biosynthesis	2	1	G2T-556
+RXN:	MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN	1D-<i>myo</i>-inositol 3-monophosphate + H<sub>2</sub>O  &rarr;  <I>myo</I>-inositol + phosphate	1	G2T-556
+PATHWAY:	PWY-7220	adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II	4	1	G2T-687
+RXN:	RXN0-747	ADP + a reduced NrdH glutaredoxin-like protein  &rarr;  dADP + an oxidized NrdH glutaredoxin-like protein + H<sub>2</sub>O	1	G2T-687
+RXN:	ADPREDUCT-RXN	dADP + an oxidized thioredoxin + H<sub>2</sub>O  &harr;  ADP + a reduced thioredoxin	1	G2T-687
