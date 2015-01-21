@@ -174,7 +174,7 @@ def read_pathways_list(pathways_file, pathways):
              pathway_name = fields[1]
              pathway_common_name = fields[2]
              #print pathway_name + ' ' + pathway_common_name
-             pathways[ pathway_name] = { 'common_name': pathway_common_name, 'rxns':{}, 'rxns-type':{} }
+             pathways[ pathway_name ] = { 'common_name': pathway_common_name, 'rxns':{}, 'rxns-type':{} }
        
 
           if fields[0] == 'RXN:':
@@ -197,7 +197,6 @@ def print_taxonomy_information(pathways, ranked_pathways, enzymes, lca):
                     taxons.append(pathways[key]['rxns'][rxn][enzyme])
                     
             lca.build_independent_taxons(taxons)
-
             for rxn in pathways[key]['rxns']:   
               print '\t' + rxn + '\t' + pathways[key]['rxns-type'][rxn]
               for enzyme in pathways[key]['rxns'][rxn]:   
@@ -211,12 +210,9 @@ def print_taxonomy_information(pathways, ranked_pathways, enzymes, lca):
 def add_taxonomy_information(pathways, enzymes):
     print "add_taxonomy_information:"
     for key in pathways:
-        print key
         for rxn in pathways[key]['rxns']:   
            for enzyme in pathways[key]['rxns'][rxn]:  # get orfs for  
              if enzyme in enzymes: # key to taxonomy
-                print pathways[key]['rxns'][rxn][enzyme]
-                print enzymes[enzyme]
                 pathways[key]['rxns'][rxn][enzyme] = enzymes[enzyme] # put taxonomy on reaction
              
        #      print '      '+ enzyme + '  ' + pathways[key]['rxns'][rxn][enzyme]
@@ -237,7 +233,6 @@ def compute_min_species(pathways,p, lca):
        for enzyme in pathways[p]['rxns'][rxn]:   
             taxons.append(pathways[p]['rxns'][rxn][enzyme])
     
-    print taxons
     indtaxons = lca.get_independent_taxons(taxons)
     
     #create X variables 
@@ -370,8 +365,7 @@ def main(argv):
     
     pathways={} # pathway -> rxns -> orfs
     read_pathways_list(opts.pathways_file, pathways)
-    print pathways
-    exit()
+
     # create NCBI Taxonomy tree
     lca = SpeciesComputation(opts.ncbi_file)
     # lca.construct_tree()
@@ -407,8 +401,7 @@ def main(argv):
     
     # put taxonomy from ORF annotation
     add_taxonomy_information(pathways, enzymes)
-    exit()
-    
+
     distrib_pathways = {}
     for p in pathways:  
        value =  compute_min_species(pathways, p, lca) # perform integer optimization
