@@ -2,13 +2,6 @@
 # File created on Nov 27 Jan 2012
 from __future__ import division
 
-__author__ = "Kishori M Konwar"
-__copyright__ = "Copyright 2010, The metapaths Project"
-__credits__ = ["r"]
-__version__ = "1.0"
-__maintainer__ = "Kishori M Konwar"
-__status__ = "Release"
-
 try:
      import os
      from os import  makedirs, sys, remove, path
@@ -410,7 +403,7 @@ def main(argv):
     ranked_pwys = sorted(distrib_pathways, key=distrib_pathways.get, reverse=True)
 
     for p in ranked_pwys: 
-      print p + '\t' + str(distrib_pathways[p]) +  '\t' + pathways[p]['common_name']
+      print p + '\t' + str(distrib_pathways[p]) + '\t' + pathways[p]['common_name']
 
 
     print_taxonomy_information(pathways,ranked_pwys, enzymes, lca)

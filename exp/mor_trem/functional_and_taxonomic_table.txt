@@ -1,0 +1,587 @@
+ORF_ID	ORF_length	start	end	Contig_Name	Contig_length	strand	ec	taxonomy	product
+M_T_PCIT_0_0	1799	1	1800	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_1	962	1816	2778	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	signal peptidase
+M_T_PCIT_0_2	689	2866	3555	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Ribonuclease 3
+M_T_PCIT_0_3	905	3552	4457	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	GTPase Era
+M_T_PCIT_0_4	380	4571	4951	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	4'-phosphopantetheinyl transferase
+M_T_PCIT_0_5	200	7872	8072	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_6	1376	10959	12335	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tRNA modification GTPase TrmE
+M_T_PCIT_0_7	1616	12448	14064	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_8	338	14309	14647	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	ribonuclease P
+M_T_PCIT_0_9	149	14667	14816	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_10	2150	14983	17133	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_11	215	17337	17552	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L31
+M_T_PCIT_0_12	1103	18136	19239	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit beta
+M_T_PCIT_0_13	2414	19535	21949	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_14	1013	22835	23848	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	sulfurtransferase
+M_T_PCIT_0_15	209	24365	24574	M_T_PCIT_0	538294	+		Bacteria (2)	putative Cold shock-like protein CspC
+M_T_PCIT_0_16	602	24836	25438	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	putative GTP-binding protein EngB
+M_T_PCIT_0_17	1403	26670	28073	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_18	560	28211	28771	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	single-stranded DNA-binding protein
+M_T_PCIT_0_19	740	29093	29833	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	uroporphyrinogen-III synthase
+M_T_PCIT_0_20	947	29830	30777	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Porphobilinogen deaminase
+M_T_PCIT_0_21	116	31159	31275	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_22	2165	31527	33692	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_23	260	34584	34844	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_24	1400	35045	36445	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_25	317	36533	36850	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	heat shock protein HspQ
+M_T_PCIT_0_26	122	37149	37271	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_27	815	37928	38743	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP pyrophosphate phosphatase
+M_T_PCIT_0_28	1247	38868	40115	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tRNA nucleotidyl transferase
+M_T_PCIT_0_29	326	40321	40647	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	glutaredoxin
+M_T_PCIT_0_30	653	40796	41449	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	ribonuclease T
+M_T_PCIT_0_31	788	41853	42641	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	enoyl-ACP reductase
+M_T_PCIT_0_32	533	42972	43505	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	inorganic pyrophosphatase
+M_T_PCIT_0_33	1664	43957	45621	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_34	878	46058	46936	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	dihydrodipicolinate synthase
+M_T_PCIT_0_35	323	47697	48020	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	thioredoxin
+M_T_PCIT_0_36	1259	48423	49682	M_T_PCIT_0	538294	+		Enterobacteriaceae (543)	transcription termination factor Rho
+M_T_PCIT_0_37	581	50534	51115	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	penicillin-binding protein activator LpoB
+M_T_PCIT_0_38	353	51207	51560	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	purine nucleoside phosphoramidase
+M_T_PCIT_0_39	1004	51725	52729	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	glyceraldehyde-3-phosphate dehydrogenase
+M_T_PCIT_0_40	218	53162	53380	M_T_PCIT_0	538294	+		Enterobacteriaceae (543)	cold-shock protein
+M_T_PCIT_0_41	1004	53521	54525	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tryptophanyl-tRNA synthetase
+M_T_PCIT_0_42	812	54613	55425	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Ribosomal RNA small subunit methyltransferase A
+M_T_PCIT_0_43	980	55425	56405	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	4-hydroxythreonine-4-phosphate dehydrogenase
+M_T_PCIT_0_44	1295	56398	57693	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	peptidyl-prolyl cis-trans isomerase
+M_T_PCIT_0_45	2333	57756	60089	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_46	278	60299	60577	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_47	458	61025	61483	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	deoxyuridine 5'-triphosphate nucleotidohydrolase
+M_T_PCIT_0_48	236	62061	62297	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L28
+M_T_PCIT_0_49	167	62331	62498	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_50	809	62548	63357	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	5-hydroxymethyluracil DNA glycosylase
+M_T_PCIT_0_51	2168	63886	66054	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_52	158	66017	66175	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_53	653	66552	67205	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	adenylate kinase
+M_T_PCIT_0_54	1460	67233	68693	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_55	1532	68705	70237	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_56	1844	70344	72188	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_57	299	72185	72484	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH:ubiquinone oxidoreductase subunit K
+M_T_PCIT_0_58	548	72481	73029	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH:ubiquinone oxidoreductase subunit J
+M_T_PCIT_0_59	542	73044	73586	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH dehydrogenase subunit I
+M_T_PCIT_0_60	941	73605	74546	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH:ubiquinone oxidoreductase subunit H
+M_T_PCIT_0_61	2732	74543	77275	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_62	1349	77382	78731	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_63	524	78728	79252	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH dehydrogenase subunit E
+M_T_PCIT_0_64	1790	79258	81048	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_65	674	81108	81782	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH dehydrogenase subunit B
+M_T_PCIT_0_66	368	81795	82163	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	NADH-quinone oxidoreductase subunit A
+M_T_PCIT_0_67	1079	82855	83934	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	rod shape-determining protein Mbl
+M_T_PCIT_0_68	872	84023	84895	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	rod shape-determining protein MreC
+M_T_PCIT_0_69	1292	85206	86498	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	seryl-tRNA synthetase
+M_T_PCIT_0_70	3224	86939	90163	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_71	1145	90228	91373	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	carbamoyl phosphate synthase small subunit
+M_T_PCIT_0_72	827	91584	92411	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Dihydrodipicolinate reductase
+M_T_PCIT_0_73	488	92515	93003	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Lipoprotein signal peptidase
+M_T_PCIT_0_74	2816	93003	95819	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_75	281	96319	96600	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S20
+M_T_PCIT_0_76	1130	96639	97769	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	molecular chaperone DnaJ
+M_T_PCIT_0_77	1898	97869	99767	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_78	539	100151	100690	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UPF0135 protein ybgI
+M_T_PCIT_0_79	1166	101640	102806	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	malate--CoA ligase subunit beta
+M_T_PCIT_0_80	875	102806	103681	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	succinyl-CoA synthetase subunit alpha
+M_T_PCIT_0_81	479	103965	104444	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ADP-binding protein
+M_T_PCIT_0_82	1985	105144	107129	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_83	944	107122	108066	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tRNA delta(2)-isopentenylpyrophosphate transferase
+M_T_PCIT_0_84	266	108131	108397	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	RNA chaperone Hfq
+M_T_PCIT_0_85	1217	108728	109945	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division protein FtsH
+M_T_PCIT_0_86	992	109942	110934	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division protein FtsH
+M_T_PCIT_0_87	2330	111622	113952	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_88	737	114162	114899	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	23S rRNA (guanosine-2'-O-)-methyltransferase
+M_T_PCIT_0_89	716	115221	115937	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	2,3-bisphosphoglycerate-dependent phosphoglycerate mutase
+M_T_PCIT_0_90	1889	116309	118198	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_91	1106	119545	120651	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	outer membrane porin protein C
+M_T_PCIT_0_92	410	120943	121353	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S6
+M_T_PCIT_0_93	326	121357	121683	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	primosomal replication protein N
+M_T_PCIT_0_94	227	121688	121915	M_T_PCIT_0	538294	+		Gammaproteobacteria (1236)	30S ribosomal protein S18
+M_T_PCIT_0_95	452	121954	122406	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L9
+M_T_PCIT_0_96	995	122694	123689	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	6-phosphogluconolactonase
+M_T_PCIT_0_97	251	123940	124191	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_98	731	124839	125570	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP-2,3-diacylglucosamine hydrolase
+M_T_PCIT_0_99	608	126354	126962	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	riboflavin synthase subunit alpha
+M_T_PCIT_0_100	830	127102	127932	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ribosomal large subunit pseudouridine synthase B
+M_T_PCIT_0_101	1574	128235	129809	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_102	578	129809	130387	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	anthranilate synthase subunit II
+M_T_PCIT_0_103	1355	130472	131827	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	phosphoribosylanthranilate isomerase
+M_T_PCIT_0_104	1190	131866	133056	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tryptophan synthase subunit beta
+M_T_PCIT_0_105	806	133058	133864	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tryptophan synthase subunit alpha
+M_T_PCIT_0_106	749	134097	134846	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	membrane protein
+M_T_PCIT_0_107	1649	134903	136552	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_108	1445	136710	138155	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_109	1232	138240	139472	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	putative peptidase, M23 family
+M_T_PCIT_0_110	971	139485	140456	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	High-affinity zinc uptake system protein znuA
+M_T_PCIT_0_111	770	140546	141316	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	zinc transporter
+M_T_PCIT_0_112	785	141309	142094	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	High-affinity zinc uptake system membrane protein znuB
+M_T_PCIT_0_113	1004	142179	143183	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Holliday junction DNA helicase RuvB
+M_T_PCIT_0_114	620	143192	143812	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Holliday junction DNA helicase RuvA
+M_T_PCIT_0_115	494	143901	144395	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Holliday junction resolvase
+M_T_PCIT_0_116	743	144453	145196	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	hypothetical protein
+M_T_PCIT_0_117	1760	145397	147157	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_118	479	147359	147838	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	heat shock chaperone IbpB
+M_T_PCIT_0_119	416	147975	148391	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	heat shock protein IbpA
+M_T_PCIT_0_120	3542	148859	152401	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_121	1484	152721	154205	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_122	1442	154629	156071	M_T_PCIT_0	538294	+		Enterobacteriaceae (543)	pyruvate kinase
+M_T_PCIT_0_123	1016	156521	157537	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit delta
+M_T_PCIT_0_124	488	157599	158087	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	putative LPS-assembly lipoprotein RplB
+M_T_PCIT_0_125	2597	158126	160723	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_126	491	161117	161608	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	ribonuclease H
+M_T_PCIT_0_127	740	161666	162406	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit epsilon
+M_T_PCIT_0_128	668	162434	163102	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Uracil-DNA glycosylase
+M_T_PCIT_0_129	863	163248	164111	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	acetyl-CoA carboxylase subunit beta
+M_T_PCIT_0_130	665	164300	164965	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	lipoate-protein ligase B
+M_T_PCIT_0_131	947	165131	166078	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	lipoyl synthase
+M_T_PCIT_0_132	422	166661	167083	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	transcription antitermination protein NusB
+M_T_PCIT_0_133	470	167102	167572	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	6,7-dimethyl-8-ribityllumazine synthase
+M_T_PCIT_0_134	587	168282	168869	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Murein hydrolase activator NlpD
+M_T_PCIT_0_135	2567	168971	171538	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_136	788	171549	172337	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	DNAse
+M_T_PCIT_0_137	998	172352	173350	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit delta'
+M_T_PCIT_0_138	167	173432	173599	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_139	302	174032	174334	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	acyl carrier protein
+M_T_PCIT_0_140	734	174493	175227	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	3-ketoacyl-ACP reductase
+M_T_PCIT_0_141	944	175233	176177	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	malonyl CoA-ACP transacylase
+M_T_PCIT_0_142	170	177170	177340	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_143	968	177808	178776	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	23S rRNA pseudouridylate synthase C
+M_T_PCIT_0_144	2555	179263	181818	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_145	854	182042	182896	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	PTS mannose transporter subunit IID
+M_T_PCIT_0_146	800	182915	183715	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	PTS mannose transporter subunit IIC
+M_T_PCIT_0_147	968	183729	184697	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	PTS mannose transporter subunit IIAB
+M_T_PCIT_0_148	509	186196	186705	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	disulfide bond formation protein DsbB
+M_T_PCIT_0_149	734	186953	187687	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	putative septum site-determining protein minC
+M_T_PCIT_0_150	815	187709	188524	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division inhibitor MinD
+M_T_PCIT_0_151	254	188843	189097	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division topological specificity factor MinE
+M_T_PCIT_0_152	749	189204	189953	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Uncharacterized protein YeaZ
+M_T_PCIT_0_153	689	190191	190880	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	outer membrane biogenesis protein BamD
+M_T_PCIT_0_154	1556	191344	192900	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_155	287	193009	193296	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L25
+M_T_PCIT_0_156	1514	194177	195691	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_157	2048	196031	198079	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_158	116	198118	198234	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_159	263	198231	198494	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_160	164	198538	198702	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_161	1061	199589	200650	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	recombinase RecA
+M_T_PCIT_0_162	2627	200842	203469	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_163	185	203677	203862	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	carbon storage regulator
+M_T_PCIT_0_164	1406	204168	205574	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_165	977	205934	206911	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	3-phosphoserine/phosphohydroxythreonine aminotransferase
+M_T_PCIT_0_166	1670	207429	209099	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_167	602	209300	209902	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	peroxiredoxin
+M_T_PCIT_0_168	1109	209970	211079	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	aspartate-semialdehyde dehydrogenase
+M_T_PCIT_0_169	1370	212221	213591	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	serine endoprotease
+M_T_PCIT_0_170	215	213841	214056	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Uncharacterized protein YrbA
+M_T_PCIT_0_171	1280	214928	216208	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	histidyl-tRNA synthetase
+M_T_PCIT_0_172	1166	216573	217739	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	outer membrane biogenesis protein BamB
+M_T_PCIT_0_173	1469	217777	219246	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_174	275	219591	219866	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA-directed RNA polymerase subunit omega
+M_T_PCIT_0_175	260	219972	220232	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_176	2087	220234	222321	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_177	725	222833	223558	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	lipopolysaccharide ABC transporter ATP-binding protein
+M_T_PCIT_0_178	560	223595	224155	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	sugar ABC transporter substrate-binding protein
+M_T_PCIT_0_179	578	224118	224696	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	sugar ABC transporter substrate-binding protein
+M_T_PCIT_0_180	557	224702	225259	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	3-deoxy-D-manno-octulosonate 8-phosphate phosphatase
+M_T_PCIT_0_181	2669	226200	228869	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_182	1274	228885	230159	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	branched-chain alpha-keto acid dehydrogenase subunit E2
+M_T_PCIT_0_183	1436	230252	231688	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_184	257	231750	232007	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Sulfurtransferase TusA
+M_T_PCIT_0_185	1457	232052	233509	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_186	734	233669	234403	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	phosphoadenosine phosphosulfate reductase
+M_T_PCIT_0_187	1703	234418	236121	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_188	1829	236121	237950	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_189	1295	238146	239441	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	enolase
+M_T_PCIT_0_190	2819	240098	242917	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_191	1034	243043	244077	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tRNA-dihydrouridine synthase A
+M_T_PCIT_0_192	257	244057	244314	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_193	905	245023	245928	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Glycyl-tRNA synthetase alpha subunit
+M_T_PCIT_0_194	2120	245903	248023	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_195	101	248234	248335	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_196	1139	248352	249491	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Cytochrome d ubiquinol oxidase subunit 2
+M_T_PCIT_0_197	1565	249509	251074	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_198	815	251740	252555	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	UPF0701 protein yicC
+M_T_PCIT_0_199	983	253417	254400	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Ribosomal RNA small subunit methyltransferase H
+M_T_PCIT_0_200	269	254397	254666	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division protein FtsL
+M_T_PCIT_0_201	1775	254936	256711	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_202	1082	257541	258623	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	phospho-N-acetylmuramoyl-pentapeptide-transferase
+M_T_PCIT_0_203	1139	259045	260184	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Cell division protein ftsW
+M_T_PCIT_0_204	1064	260190	261254	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP-diphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase
+M_T_PCIT_0_205	1253	262204	263457	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell division protein FtsA
+M_T_PCIT_0_206	1169	263536	264705	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	peptidase M23
+M_T_PCIT_0_207	905	264718	265623	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase
+M_T_PCIT_0_208	470	265700	266170	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	hypothetical protein
+M_T_PCIT_0_209	2561	266416	268977	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_210	3557	269127	272684	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_211	1211	273170	274381	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	phosphoglycerate kinase
+M_T_PCIT_0_212	1076	274418	275494	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	fructose-bisphosphate aldolase
+M_T_PCIT_0_213	428	275683	276111	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Holliday junction resolvase
+M_T_PCIT_0_214	1835	276504	278339	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_215	1748	278485	280233	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_216	242	280341	280583	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	30S ribosomal protein S21
+M_T_PCIT_0_217	1022	280897	281919	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UGMP family protein
+M_T_PCIT_0_218	566	281980	282546	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	elongation factor P
+M_T_PCIT_0_219	452	282943	283395	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	3-dehydroquinate dehydratase
+M_T_PCIT_0_220	428	283417	283845	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	acetyl-CoA carboxylase biotin carboxyl carrier protein
+M_T_PCIT_0_221	1382	284303	285685	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_222	2393	285943	288336	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_223	983	288352	289335	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	phenylalanyl-tRNA synthetase
+M_T_PCIT_0_224	359	289629	289988	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L20
+M_T_PCIT_0_225	197	290041	290238	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L35
+M_T_PCIT_0_226	425	290265	290690	M_T_PCIT_0	538294	-		Enterobacteriaceae (543)	translation initiation factor IF-3
+M_T_PCIT_0_227	1931	290808	292739	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_228	809	293181	293990	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	shikimate 5-dehydrogenase
+M_T_PCIT_0_229	575	294205	294780	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Fe/S biogenesis protein NfuA
+M_T_PCIT_0_230	338	295923	296261	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	UPF0438 protein yifE
+M_T_PCIT_0_231	857	296923	297780	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	RNA polymerase factor sigma-32
+M_T_PCIT_0_232	1118	298374	299492	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Cell division protein ftsY
+M_T_PCIT_0_233	1091	299780	300871	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	GTP-binding protein YchF
+M_T_PCIT_0_234	596	300935	301531	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	peptidyl-tRNA hydrolase
+M_T_PCIT_0_235	947	301769	302716	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	ribose-phosphate pyrophosphokinase
+M_T_PCIT_0_236	1082	302923	304005	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	peptide chain release factor 1
+M_T_PCIT_0_237	824	304033	304857	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	N5-glutamine S-adenosyl-L-methionine-dependent methyltransferase
+M_T_PCIT_0_238	785	305060	305845	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	inositol monophosphatase
+M_T_PCIT_0_239	1199	306537	307736	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cysteine desulfurase
+M_T_PCIT_0_240	200	308470	308670	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_241	380	311591	311971	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	4'-phosphopantetheinyl transferase
+M_T_PCIT_0_242	731	311971	312702	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	pyridoxine 5'-phosphate synthase
+M_T_PCIT_0_243	2573	312716	315289	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_244	980	315442	316422	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	23S rRNA pseudouridine synthase D
+M_T_PCIT_0_245	1358	316480	317838	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	peptidase PmbA
+M_T_PCIT_0_246	905	318329	319234	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	recombinase
+M_T_PCIT_0_247	431	319435	319866	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit psi
+M_T_PCIT_0_248	995	320118	321113	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	global regulator
+M_T_PCIT_0_249	842	321273	322115	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	prolipoprotein diacylglyceryl transferase
+M_T_PCIT_0_250	536	322376	322912	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	RNA pyrophosphohydrolase
+M_T_PCIT_0_251	296	323166	323462	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Fis family transcriptional regulator
+M_T_PCIT_0_252	1910	324268	326178	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_253	1112	326185	327297	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cell wall shape-determining protein
+M_T_PCIT_0_254	932	327783	328715	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	putative adenine-specific methylase yfcB
+M_T_PCIT_0_255	431	329155	329586	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	putative stringent starvation protein B
+M_T_PCIT_0_256	806	330396	331202	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	serine acetyltransferase
+M_T_PCIT_0_257	683	331251	331934	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_258	245	331921	332166	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_259	707	332163	332870	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	transcriptional regulator
+M_T_PCIT_0_260	794	333407	334201	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	triosephosphate isomerase
+M_T_PCIT_0_261	962	334318	335280	M_T_PCIT_0	538294	-		Enterobacteriaceae (543)	6-phosphofructokinase
+M_T_PCIT_0_262	1994	335360	337354	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_263	569	338135	338704	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	outer membrane lipoprotein
+M_T_PCIT_0_264	464	339404	339868	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	metal-binding heat shock protein
+M_T_PCIT_0_265	1724	340973	342697	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_266	1397	343483	344880	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_267	623	344988	345611	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	superoxide dismutase
+M_T_PCIT_0_268	1541	345973	347514	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_269	1730	347579	349309	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_270	2594	349830	352424	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_271	1010	352712	353722	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	membrane protein
+M_T_PCIT_0_272	530	354188	354718	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	adenosine deaminase
+M_T_PCIT_0_273	455	355241	355696	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L21
+M_T_PCIT_0_274	257	355717	355974	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L27
+M_T_PCIT_0_275	1025	356310	357335	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	GTPase CgtA
+M_T_PCIT_0_276	209	357555	357764	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_277	482	358164	358646	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Transcription elongation factor greA
+M_T_PCIT_0_278	629	358982	359611	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	23S rRNA methyltransferase
+M_T_PCIT_0_279	1886	359669	361555	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_280	332	362036	362368	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	preprotein translocase subunit SecG
+M_T_PCIT_0_281	1490	363340	364830	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_282	2705	364855	367560	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_283	416	367650	368066	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ribosome-binding factor A
+M_T_PCIT_0_284	944	368073	369017	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tRNA pseudouridine synthase B
+M_T_PCIT_0_285	269	369158	369427	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S15
+M_T_PCIT_0_286	2111	369628	371739	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_287	1787	372205	373992	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_288	257	374178	374435	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	PTS sugar transporter
+M_T_PCIT_0_289	1724	374484	376208	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_290	428	376623	377051	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L13
+M_T_PCIT_0_291	392	377067	377459	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S9
+M_T_PCIT_0_292	1460	377979	379439	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_293	374	379501	379875	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L19
+M_T_PCIT_0_294	764	379875	380639	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tRNA (guanine-N1)-methyltransferase
+M_T_PCIT_0_295	380	380688	381068	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	16S rRNA-processing protein M
+M_T_PCIT_0_296	254	381257	381511	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	30S ribosomal protein S16
+M_T_PCIT_0_297	1334	381605	382939	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	signal recognition particle protein Srp54
+M_T_PCIT_0_298	1115	383255	384370	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Membrane-bound lytic murein transglycosylase C
+M_T_PCIT_0_299	728	384704	385432	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tRNA (guanine-N(7)-)-methyltransferase
+M_T_PCIT_0_300	623	385703	386326	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Ribosomal RNA small subunit methyltransferase D
+M_T_PCIT_0_301	1211	386498	387709	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	3-oxoacyl-ACP synthase
+M_T_PCIT_0_302	845	388062	388907	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	methionine aminopeptidase
+M_T_PCIT_0_303	713	389268	389981	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S2
+M_T_PCIT_0_304	806	390103	390909	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Elongation factor Ts
+M_T_PCIT_0_305	554	391190	391744	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ribosome recycling factor
+M_T_PCIT_0_306	752	392461	393213	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP pyrophosphate synthase
+M_T_PCIT_0_307	2420	393514	395934	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_308	500	396088	396588	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	molecular chaperone
+M_T_PCIT_0_309	1055	396588	397643	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP-3-O-(3-hydroxymyristoyl) glucosamine N-acyltransferase
+M_T_PCIT_0_310	788	398201	398989	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	UDP-N-acetylglucosamine acyltransferase
+M_T_PCIT_0_311	1148	398992	400140	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	lipid-A-disaccharide synthase
+M_T_PCIT_0_312	3482	400545	404027	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_313	953	404058	405011	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha
+M_T_PCIT_0_314	1313	405281	406594	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	glutaminyl-tRNA synthetase
+M_T_PCIT_0_315	923	407621	408544	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	heat shock protein HtpX
+M_T_PCIT_0_316	116	408616	408732	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_317	584	409050	409634	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Clp protease proteolytic subunit ClpP
+M_T_PCIT_0_318	1259	409729	410988	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ATP-dependent protease
+M_T_PCIT_0_319	2354	411149	413503	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_320	428	413580	414008	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	large conductance mechanosensitive channel protein MscL
+M_T_PCIT_0_321	956	414326	415282	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	methionyl-tRNA formyltransferase
+M_T_PCIT_0_322	494	415289	415783	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	peptide deformylase
+M_T_PCIT_0_323	1577	416106	417683	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_324	779	418396	419175	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	pantoate--beta-alanine ligase
+M_T_PCIT_0_325	806	419187	419993	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	3-methyl-2-oxobutanoate hydroxymethyltransferase
+M_T_PCIT_0_326	1307	420666	421973	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	poly(A) polymerase I
+M_T_PCIT_0_327	449	422448	422897	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	transcriptional regulator
+M_T_PCIT_0_328	1739	423587	425326	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_329	869	425689	426558	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Peptide chain release factor 2
+M_T_PCIT_0_330	1580	426509	428089	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_331	521	428361	428882	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	shikimate kinase
+M_T_PCIT_0_332	326	430235	430561	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	sulfur transfer protein TusE
+M_T_PCIT_0_333	1112	430730	431842	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tRNA-specific 2-thiouridylase mnmA
+M_T_PCIT_0_334	2177	431994	434171	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_335	1202	434262	435464	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Acetate kinase
+M_T_PCIT_0_336	722	436181	436903	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	putative membrane-bound metal-dependent hydrolase
+M_T_PCIT_0_337	1820	437363	439183	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_338	161	439607	439768	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_339	317	439871	440188	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_340	425	440258	440683	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_341	794	440673	441467	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	tRNA pseudouridine synthase A
+M_T_PCIT_0_342	1031	441715	442746	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	bifunctional biotin-- synthetase/biotin operon repressor
+M_T_PCIT_0_343	554	443691	444245	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	hypothetical protein
+M_T_PCIT_0_344	1133	444301	445434	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	HemN family oxidoreductase
+M_T_PCIT_0_345	1070	445753	446823	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	S-adenosylmethionine tRNA ribosyltransferase
+M_T_PCIT_0_346	1133	446890	448023	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	queuine tRNA-ribosyltransferase
+M_T_PCIT_0_347	407	448298	448705	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	iron-sulfur cluster assembly scaffold protein
+M_T_PCIT_0_348	1502	448686	450188	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_349	740	450245	450985	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cysteine desulfurase
+M_T_PCIT_0_350	1313	450966	452279	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cysteine desulfurase activator complex subunit SufD
+M_T_PCIT_0_351	1223	452276	453499	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	bifunctional cysteine desulfurase/selenocysteine lyase
+M_T_PCIT_0_352	413	453509	453922	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	cysteine desufuration protein SufE
+M_T_PCIT_0_353	635	454037	454672	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	hypothetical protein
+M_T_PCIT_0_354	1007	455010	456017	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	tetraacyldisaccharide 4'-kinase
+M_T_PCIT_0_355	1751	456014	457765	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_356	515	457871	458386	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	3-hydroxydecanoyl-ACP dehydratase
+M_T_PCIT_0_357	1763	458443	460206	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_358	515	460555	461070	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	flavodoxin
+M_T_PCIT_0_359	155	461400	461555	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_360	3305	461955	465260	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_361	200	465730	465930	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_362	179	465980	466159	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_363	311	466662	466973	M_T_PCIT_0	538294	+		Gammaproteobacteria (1236)	30S ribosomal protein S10, partial
+M_T_PCIT_0_364	629	467011	467640	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L3
+M_T_PCIT_0_365	605	467659	468264	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L4
+M_T_PCIT_0_366	338	468261	468599	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L23
+M_T_PCIT_0_367	821	468586	469407	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L2
+M_T_PCIT_0_368	287	469426	469713	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S19
+M_T_PCIT_0_369	332	469723	470055	M_T_PCIT_0	538294	+		Enterobacteriaceae (543)	50S ribosomal protein L22
+M_T_PCIT_0_370	698	470073	470771	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S3
+M_T_PCIT_0_371	410	470784	471194	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L16
+M_T_PCIT_0_372	191	471194	471385	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L29
+M_T_PCIT_0_373	257	471385	471642	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S17
+M_T_PCIT_0_374	371	471827	472198	M_T_PCIT_0	538294	+		Enterobacteriaceae (543)	50S ribosomal protein L14
+M_T_PCIT_0_375	317	472209	472526	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L24
+M_T_PCIT_0_376	536	472543	473079	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L5
+M_T_PCIT_0_377	305	473093	473398	M_T_PCIT_0	538294	+		Gammaproteobacteria (1236)	30S ribosomal protein S14
+M_T_PCIT_0_378	392	473437	473829	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S8
+M_T_PCIT_0_379	533	473843	474376	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L6
+M_T_PCIT_0_380	350	474386	474736	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L18
+M_T_PCIT_0_381	500	474765	475265	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S5
+M_T_PCIT_0_382	179	475272	475451	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_383	437	475458	475895	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L15
+M_T_PCIT_0_384	1328	475903	477231	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	preprotein translocase subunit SecY
+M_T_PCIT_0_385	365	477456	477821	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S13
+M_T_PCIT_0_386	389	477833	478222	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S11
+M_T_PCIT_0_387	620	478254	478874	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	30S ribosomal protein S4
+M_T_PCIT_0_388	989	478906	479895	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA-directed RNA polymerase subunit alpha
+M_T_PCIT_0_389	383	479934	480317	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	50S ribosomal protein L17
+M_T_PCIT_0_390	1640	480395	482035	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_391	293	482082	482375	M_T_PCIT_0	538294	-		cellular organisms (131567)	co-chaperonin GroES
+M_T_PCIT_0_392	602	482775	483377	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	heat shock protein GrpE
+M_T_PCIT_0_393	479	483739	484218	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	single-stranded DNA-binding protein
+M_T_PCIT_0_394	1661	484848	486509	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_395	545	486689	487234	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	oligoribonuclease
+M_T_PCIT_0_396	347	487660	488007	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	iron-sulfur cluster insertion protein ErpA
+M_T_PCIT_0_397	806	488566	489372	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	exonuclease III
+M_T_PCIT_0_398	1268	490254	491522	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Tyrosyl-tRNA synthetase
+M_T_PCIT_0_399	305	492411	492716	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_400	1085	492902	493987	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	Phosphomethylpyrimidine synthase
+M_T_PCIT_0_401	656	494021	494677	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	thiamine-phosphate pyrophosphorylase
+M_T_PCIT_0_402	4208	494758	498966	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_403	4028	499064	503092	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_404	368	503369	503737	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L7/L12
+M_T_PCIT_0_405	497	503814	504311	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L10
+M_T_PCIT_0_406	704	504458	505162	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	50S ribosomal protein L1
+M_T_PCIT_0_407	428	505165	505593	M_T_PCIT_0	538294	-		Enterobacteriaceae (543)	50S ribosomal protein L11
+M_T_PCIT_0_408	545	505752	506297	M_T_PCIT_0	538294	-		Enterobacteriaceae (543)	transcription antitermination protein NusG
+M_T_PCIT_0_409	395	506290	506685	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	preprotein translocase subunit SecE
+M_T_PCIT_0_410	1184	506789	507973	M_T_PCIT_0	538294	-		Enterobacteriaceae (543)	elongation factor Tu
+M_T_PCIT_0_411	1067	508637	509704	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	Lipopolysaccharide export system permease protein lptG
+M_T_PCIT_0_412	1160	509698	510858	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	lipopolysaccharide ABC transporter permease LptF
+M_T_PCIT_0_413	443	511138	511581	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	DNA polymerase III subunit chi
+M_T_PCIT_0_414	2753	511707	514460	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_415	1019	514806	515825	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	ornithine carbamoyltransferase
+M_T_PCIT_0_416	1130	516208	517338	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	ribonucleotide-diphosphate reductase subunit beta
+M_T_PCIT_0_417	2282	517388	519670	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_418	2654	520313	522967	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_419	953	523149	524102	M_T_PCIT_0	538294	+		Candidatus Moranella endobia (1048758)	thioredoxin reductase
+M_T_PCIT_0_420	1673	524239	525912	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_421	1721	525915	527636	M_T_PCIT_0	538294	+		root (1)	hypothetical protein
+M_T_PCIT_0_422	218	527840	528058	M_T_PCIT_0	538294	+		Gammaproteobacteria (1236)	translation initiation factor IF-1
+M_T_PCIT_0_423	2108	528292	530400	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_424	470	530499	530969	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	30S ribosomal protein S7
+M_T_PCIT_0_425	374	531059	531433	M_T_PCIT_0	538294	-		Gammaproteobacteria (1236)	30S ribosomal protein S12
+M_T_PCIT_0_426	287	531692	531979	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	sulfur transfer complex subunit TusB
+M_T_PCIT_0_427	359	532004	532363	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	sulfur relay protein TusC
+M_T_PCIT_0_428	371	532375	532746	M_T_PCIT_0	538294	-		Candidatus Moranella endobia (1048758)	sulfur transfer complex subunit TusD
+M_T_PCIT_0_429	1484	533184	534668	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_0_430	2369	534845	537214	M_T_PCIT_0	538294	-		root (1)	hypothetical protein
+M_T_PCIT_1_0	1406	1	1407	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_1	635	1382	2017	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	isopropylmalate isomerase small subunit
+M_T_PCIT_1_2	1067	2014	3081	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	3-isopropylmalate dehydrogenase
+M_T_PCIT_1_3	1217	3422	4639	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_4	191	4679	4870	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S21
+M_T_PCIT_1_5	554	4928	5482	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	O-sialoglycoprotein endopeptidase
+M_T_PCIT_1_6	956	5482	6438	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative homoserine kinase
+M_T_PCIT_1_7	1208	6553	7761	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	ATP-dependent Clp protease ATP-binding subunit clpX
+M_T_PCIT_1_8	659	7764	8423	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative ATP-dependent Clp protease proteolytic subunit
+M_T_PCIT_1_9	1319	8600	9919	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_10	257	10757	11014	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_11	350	11007	11357	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L32
+M_T_PCIT_1_12	260	11357	11617	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_13	476	11695	12171	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_14	1136	12264	13400	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative chaperone protein DnaJ
+M_T_PCIT_1_15	1904	13452	15356	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_16	299	15379	15678	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	protein GrpE
+M_T_PCIT_1_17	1088	15993	17081	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	phospho-2-dehydro-3-deoxyheptonate aldolase
+M_T_PCIT_1_18	356	17083	17439	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	hypothetical protein
+M_T_PCIT_1_19	2267	18246	20513	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_20	185	20704	20889	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_21	293	21069	21362	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_22	320	21715	22035	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_23	704	22226	22930	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative methyltransferase GidB
+M_T_PCIT_1_24	179	22972	23151	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_25	278	23627	23905	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S20
+M_T_PCIT_1_26	485	23962	24447	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_27	545	24538	25083	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_28	230	25154	25384	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_29	374	25728	26102	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L13
+M_T_PCIT_1_30	386	26099	26485	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S9
+M_T_PCIT_1_31	326	26491	26817	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	protein HesB
+M_T_PCIT_1_32	1664	26911	28575	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_33	773	29315	30088	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	hypothetical protein
+M_T_PCIT_1_34	1001	30089	31090	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative chorismate mutase/prephenate dehydratase
+M_T_PCIT_1_35	1271	31105	32376	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 3-phosphoshikimate-1-carboxyvinyltransferase
+M_T_PCIT_1_36	1556	32493	34049	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_37	281	34037	34318	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S16
+M_T_PCIT_1_38	314	34300	34614	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L19
+M_T_PCIT_1_39	836	34576	35412	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 5,10-methylenetetrahydrofolate reductase
+M_T_PCIT_1_40	1640	36961	38601	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_41	290	38644	38934	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative co-chaperonin GroES (HSP10)
+M_T_PCIT_1_42	3161	39098	42259	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_43	392	42218	42610	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	hypothetical protein
+M_T_PCIT_1_44	1610	42689	44299	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_45	986	44312	45298	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	acetohydroxy acid isomeroreductase
+M_T_PCIT_1_46	1175	45288	46463	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 2-isopropylmalate synthase
+M_T_PCIT_1_47	281	46484	46765	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S15
+M_T_PCIT_1_48	143	46890	47033	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_49	269	50046	50315	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_50	215	51762	51977	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_51	299	52539	52838	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_52	287	52840	53127	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L21
+M_T_PCIT_1_53	293	53087	53380	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L27
+M_T_PCIT_1_54	680	53672	54352	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative DNA polymerase III subunit epsilon
+M_T_PCIT_1_55	488	55056	55544	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_56	290	56181	56471	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_57	608	56565	57173	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative ribosomal RNA large subunit methyltransferase J
+M_T_PCIT_1_58	671	57897	58568	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_59	614	58568	59182	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_60	203	59187	59390	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L31
+M_T_PCIT_1_61	1403	59374	60777	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_62	1220	60777	61997	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative homoserine dehydrogenase
+M_T_PCIT_1_63	1334	61990	63324	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	replicative DNA helicase
+M_T_PCIT_1_64	425	63354	63779	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L9
+M_T_PCIT_1_65	281	63781	64062	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S18
+M_T_PCIT_1_66	344	64059	64403	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S6
+M_T_PCIT_1_67	260	64400	64660	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_68	176	64692	64868	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_69	251	65613	65864	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_70	290	66235	66525	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	hypothetical protein
+M_T_PCIT_1_71	1544	66509	68053	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_72	185	68995	69180	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_73	206	69324	69530	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_74	317	69788	70105	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L20
+M_T_PCIT_1_75	494	70299	70793	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	translation initiation factor IF-3
+M_T_PCIT_1_76	356	70881	71237	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_77	1088	71234	72322	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	chorismate synthase
+M_T_PCIT_1_78	203	72557	72760	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_79	263	72890	73153	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative SsrA-binding protein
+M_T_PCIT_1_80	509	73629	74138	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S2
+M_T_PCIT_1_81	824	74409	75233	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative tetrahydrodipicolinate succinylase
+M_T_PCIT_1_82	212	75192	75404	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_83	1235	75618	76853	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative aspartate kinase
+M_T_PCIT_1_84	419	77020	77439	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_85	542	78748	79290	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative glutamine amidotransferase anthranilate synthase
+M_T_PCIT_1_86	995	79287	80282	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative anthranilate phosphoribosyltransferase
+M_T_PCIT_1_87	260	80675	80935	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_88	206	81413	81619	M_T_PCIT_1	138927	+		Betaproteobacteria (28216)	Cold shock protein
+M_T_PCIT_1_89	1019	81596	82615	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_90	308	83432	83740	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	2Fe-2S ferredoxin, iron-sulfur binding protein
+M_T_PCIT_1_91	314	84304	84618	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_92	395	84606	85001	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative FeS cluster assembly scaffold IscU
+M_T_PCIT_1_93	1154	84988	86142	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative cysteine desulfurase IscS
+M_T_PCIT_1_94	893	86157	87050	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_95	326	87473	87799	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_96	731	88491	89222	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_97	1286	89315	90601	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal subunit stability factor
+M_T_PCIT_1_98	875	90871	91746	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative radical SAM enzyme, Cfr family
+M_T_PCIT_1_99	224	91912	92136	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_100	1076	92120	93196	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative DNA polymerase III subunit gamma tau
+M_T_PCIT_1_101	137	93452	93589	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_102	374	93795	94169	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative ClpXP protease specificity-enhancing factor
+M_T_PCIT_1_103	599	94174	94773	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative phosphoribosyl-ATP diphosphatase
+M_T_PCIT_1_104	752	94817	95569	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative imidazole glycerol phosphate synthase, cyclase subunit
+M_T_PCIT_1_105	731	95576	96307	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase
+M_T_PCIT_1_106	611	96295	96906	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative imidazole glycerol phosphate synthase subunit HisH
+M_T_PCIT_1_107	560	96887	97447	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative imidazoleglycerol-phosphate dehydratase
+M_T_PCIT_1_108	629	97525	98154	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	ATP phosphoribosyltransferase catalytic subunit
+M_T_PCIT_1_109	1097	98132	99229	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 3-dehydroquinate synthase
+M_T_PCIT_1_110	452	99226	99678	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative shikimate kinase
+M_T_PCIT_1_111	269	99738	100007	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L17
+M_T_PCIT_1_112	665	100022	100687	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative DNA-directed RNA polymerase subunit alpha N-terminal domain-containing protein
+M_T_PCIT_1_113	608	100681	101289	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S4
+M_T_PCIT_1_114	395	101291	101686	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S11
+M_T_PCIT_1_115	365	101683	102048	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S13
+M_T_PCIT_1_116	323	102172	102495	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative translation initiation factor IF-1
+M_T_PCIT_1_117	248	102568	102816	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_118	224	102902	103126	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_119	470	103089	103559	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S5
+M_T_PCIT_1_120	314	103556	103870	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L18
+M_T_PCIT_1_121	560	103867	104427	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L6
+M_T_PCIT_1_122	407	104417	104824	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S8
+M_T_PCIT_1_123	305	104828	105133	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S14
+M_T_PCIT_1_124	572	105133	105705	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L5
+M_T_PCIT_1_125	368	105702	106070	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L14P
+M_T_PCIT_1_126	230	106284	106514	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_127	404	106505	106909	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L16
+M_T_PCIT_1_128	791	106893	107684	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S3
+M_T_PCIT_1_129	287	107920	108207	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S19
+M_T_PCIT_1_130	761	108200	108961	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L2
+M_T_PCIT_1_131	611	109173	109784	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L4
+M_T_PCIT_1_132	617	109753	110370	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	50S ribosomal protein L3
+M_T_PCIT_1_133	293	110377	110670	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 30S ribosomal protein S10
+M_T_PCIT_1_134	1187	110679	111866	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	elongation factor Tu
+M_T_PCIT_1_135	2099	111885	113984	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_136	470	113986	114456	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	30S ribosomal protein S7
+M_T_PCIT_1_137	4031	114583	118614	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_138	3716	118611	122327	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_139	365	122480	122845	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L7/L12
+M_T_PCIT_1_140	515	122827	123342	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L10
+M_T_PCIT_1_141	416	123393	123809	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative 50S ribosomal protein L11
+M_T_PCIT_1_142	215	124178	124393	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_143	269	125840	126109	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_144	143	129122	129265	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_145	203	129571	129774	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_146	521	130209	130730	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative ribose-phosphate diphosphokinase
+M_T_PCIT_1_147	482	130724	131206	M_T_PCIT_1	138927	+		root (1)	hypothetical protein
+M_T_PCIT_1_148	479	132214	132693	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_149	1253	132730	133983	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_150	533	134019	134552	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	hypothetical protein
+M_T_PCIT_1_151	179	135647	135826	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_152	935	136168	137103	M_T_PCIT_1	138927	+		Candidatus Tremblaya princeps (189385)	putative transaldolase
+M_T_PCIT_1_153	224	137566	137790	M_T_PCIT_1	138927	-		root (1)	hypothetical protein
+M_T_PCIT_1_154	974	137781	138755	M_T_PCIT_1	138927	-		Candidatus Tremblaya princeps (189385)	putative malate dehydrogenase

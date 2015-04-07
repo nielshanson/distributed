@@ -1,0 +1,347 @@
+HOMOSERSYN-PWY	2	homoserine biosynthesis
+TRPSYN-PWY	2	tryptophan biosynthesis
+DAPLYSINESYN-PWY	2	lysine biosynthesis I
+PWY-6163	2	chorismate biosynthesis from 3-dehydroquinate
+PWY-6167	1	flavin biosynthesis II (archaea)
+SERSYN-PWY	1	serine biosynthesis
+PWY-7388	1	octanoyl-ACP biosynthesis (mitochondria, yeast)
+PWY-2781	1	<i>cis</i>-zeatin biosynthesis
+PWY-6012-1	1	acyl carrier protein metabolism II (mammalian)
+PWY-5046	1	2-oxoisovalerate decarboxylation to isobutanoyl-CoA
+RIBOSYN2-PWY	1	flavin biosynthesis I (bacteria and plants)
+PWY-7227	1	adenosine deoxyribonucleotides <i>de novo</i> biosynthesis
+PWY-7381	1	lipoate biosynthesis and incorporation (glycine cleavage system, yeast)
+PANTO-PWY	1	phosphopantothenate biosynthesis I
+TRNA-CHARGING-PWY	1	tRNA charging
+PWY66-373	1	sucrose degradation V (sucrose &alpha;-glucosidase)
+PWY-1622	1	formaldehyde assimilation I (serine pathway)
+PYRIDOXSYN-PWY	1	pyridoxal 5'-phosphate biosynthesis I
+PWY-7220	1	adenosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+PWY-7222	1	guanosine deoxyribonucleotides <i>de novo</i> biosynthesis II
+PWY-7226	1	guanosine deoxyribonucleotides <i>de novo</i> biosynthesis I
+HOMOSER-THRESYN-PWY	1	threonine biosynthesis from homoserine
+PWY0-662	1	PRPP biosynthesis I
+PWY0-1479	1	tRNA processing
+PWY-6700	1	queuosine biosynthesis
+NAGLIPASYN-PWY	1	lipid IV<sub>A</sub> biosynthesis
+PWY-4702	1	phytate degradation I
+THIOREDOX-PWY	1	thioredoxin pathway
+PWY-5	1	canavanine biosynthesis
+CYSTSYN-PWY	1	cysteine biosynthesis I
+PWY-5189	1	tetrapyrrole biosynthesis II (from glycine)
+PWY-5188	1	tetrapyrrole biosynthesis I (from glutamate)
+PWY-7382	1	lipoate biosynthesis and incorporation (pyruvate dehydrogenase and oxoglutarate dehydrogenase, yeast)
+PWY-6894	1	thiamin diphosphate biosynthesis I (E. coli)
+PWY0-1264	1	biotin-carboxyl carrier protein assembly
+PWY-6890	1	4-amino-2-methyl-5-diphosphomethylpyrimidine biosynthesis
+LEUSYN-PWY	1	leucine biosynthesis
+PWY-6892	1	thiazole biosynthesis I (E. coli)
+PWY-6893	1	thiamin diphosphate biosynthesis II (Bacillus)
+PWY-5101	1	isoleucine biosynthesis II
+CITRULLINE-DEG-PWY	1	citrulline degradation
+PWY-6164	1	3-dehydroquinate biosynthesis I
+PWY-2301	1	<i>myo</i>-inositol biosynthesis
+PWY-7250	1	[2Fe-2S] iron-sulfur cluster biosynthesis
+FASYN-ELONG-PWY	1	fatty acid elongation -- saturated
+PWY-7219	1	adenosine ribonucleotides <i>de novo</i> biosynthesis
+PWY-7353	1	4-methyl-5(&beta;-hydroxyethyl)thiazole salvage (yeast)
+PWY-6168	1	flavin biosynthesis III (fungi)
+PWY-6654	1	phosphopantothenate biosynthesis III
+VALSYN-PWY	1	valine biosynthesis
+PWY0-1021	1	alanine biosynthesis III
+DETOX1-PWY	1	superoxide radicals degradation
+HISTSYN-PWY	1	histidine biosynthesis
+PWY0-501	1	lipoate biosynthesis and incorporation I
+HOMOSERSYN-PWY
+	HOMOSERDEHYDROG-RXN	1
+		M_T_PCIT_1_62	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	1
+		M_T_PCIT_0_168	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	ASPARTATEKIN-RXN	1
+		M_T_PCIT_1_83	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+TRPSYN-PWY
+	RXN0-2381	2
+		M_T_PCIT_0_104	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_105	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	PRTRANS-RXN	1
+		M_T_PCIT_1_86	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	RXN0-2382	1
+		M_T_PCIT_0_104	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	PRAISOM-RXN	1
+		M_T_PCIT_0_103	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+DAPLYSINESYN-PWY
+	TETHYDPICSUCC-RXN	1
+		M_T_PCIT_1_81	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	ASPARTATE-SEMIALDEHYDE-DEHYDROGENASE-RXN	1
+		M_T_PCIT_0_168	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	DIHYDRODIPICSYN-RXN	1
+		M_T_PCIT_0_34	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	ASPARTATEKIN-RXN	1
+		M_T_PCIT_1_83	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY-6163
+	3-DEHYDROQUINATE-DEHYDRATASE-RXN	1
+		M_T_PCIT_0_219	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	2.5.1.19-RXN	1
+		M_T_PCIT_1_35	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	SHIKIMATE-KINASE-RXN	2
+		M_T_PCIT_1_110	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+		M_T_PCIT_0_331	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	SHIKIMATE-5-DEHYDROGENASE-RXN	1
+		M_T_PCIT_0_228	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	CHORISMATE-SYNTHASE-RXN	1
+		M_T_PCIT_1_77	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY-6167
+	LUMAZINESYN-RXN	1
+		M_T_PCIT_0_133	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RIBOFLAVIN-SYN-RXN	1
+		M_T_PCIT_0_99	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+SERSYN-PWY
+	PSERTRANSAM-RXN	1
+		M_T_PCIT_0_165	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7388
+	MALONYL-COA-ACP-TRANSACYL-RXN	1
+		M_T_PCIT_0_141	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	ACETYL-COA-CARBOXYLTRANSFER-RXN	3
+		M_T_PCIT_0_220	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_313	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_129	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-2781
+	RXN0-6274	1
+		M_T_PCIT_0_83	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6012-1
+	HOLO-ACP-SYNTH-RXN	2
+		M_T_PCIT_0_241	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_4	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-5046
+	1.2.4.4-RXN	1
+		M_T_PCIT_0_182	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	2.3.1.168-RXN	1
+		M_T_PCIT_0_182	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+RIBOSYN2-PWY
+	LUMAZINESYN-RXN	1
+		M_T_PCIT_0_133	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RIBOFLAVIN-SYN-RXN	1
+		M_T_PCIT_0_99	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7227
+	ADPREDUCT-RXN	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7381
+	RXN-14950	1
+		M_T_PCIT_0_131	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PANTO-PWY
+	3-CH3-2-OXOBUTANOATE-OH-CH3-XFER-RXN	1
+		M_T_PCIT_0_325	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	PANTOATE-BETA-ALANINE-LIG-RXN	1
+		M_T_PCIT_0_324	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+TRNA-CHARGING-PWY
+	TRYPTOPHAN--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_41	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	GLUTAMINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_314	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	SERINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_69	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	TYROSINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_398	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	HISTIDINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_171	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	GLYCINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_193	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	PHENYLALANINE--TRNA-LIGASE-RXN	1
+		M_T_PCIT_0_223	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY66-373
+	TRIOSEPISOMERIZATION-RXN	1
+		M_T_PCIT_0_260	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-8631	1
+		M_T_PCIT_0_212	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-1622
+	MALATE--COA-LIGASE-RXN	1
+		M_T_PCIT_0_79	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	2PGADEHYDRAT-RXN	1
+		M_T_PCIT_0_189	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PYRIDOXSYN-PWY
+	PDXJ-RXN	1
+		M_T_PCIT_0_242	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	PSERTRANSAMPYR-RXN	1
+		M_T_PCIT_0_165	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	1.1.1.262-RXN	1
+		M_T_PCIT_0_43	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7220
+	ADPREDUCT-RXN	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN0-747	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7222
+	RXN0-748	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	GDPREDUCT-RXN	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7226
+	GDPREDUCT-RXN	1
+		M_T_PCIT_0_416	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+HOMOSER-THRESYN-PWY
+	HOMOSERKIN-RXN	1
+		M_T_PCIT_1_6	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY0-662
+	PRPPSYN-RXN	2
+		M_T_PCIT_1_146	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+		M_T_PCIT_0_235	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY0-1479
+	RXN0-6480	1
+		M_T_PCIT_0_8	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	3.1.26.5-RXN	1
+		M_T_PCIT_0_8	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6700
+	RXN0-1342	1
+		M_T_PCIT_0_345	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+NAGLIPASYN-PWY
+	LIPIDADISACCHARIDESYNTH-RXN	1
+		M_T_PCIT_0_311	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	LIPIDXSYNTHESIS-RXN	1
+		M_T_PCIT_0_98	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	UDPNACETYLGLUCOSAMACYLTRANS-RXN	1
+		M_T_PCIT_0_310	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	TETRAACYLDISACC4KIN-RXN	1
+		M_T_PCIT_0_354	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	UDPHYDROXYMYRGLUCOSAMNACETYLTRANS-RXN	2
+		M_T_PCIT_0_309	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_207	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-4702
+	RXN0-5408	1
+		M_T_PCIT_0_238	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+THIOREDOX-PWY
+	THIOREDOXIN-REDUCT-NADPH-RXN	1
+		M_T_PCIT_0_419	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-5
+	RXN-9	1
+		M_T_PCIT_0_415	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+CYSTSYN-PWY
+	SERINE-O-ACETTRAN-RXN	1
+		M_T_PCIT_0_256	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-5189
+	UROGENIIISYN-RXN	1
+		M_T_PCIT_0_19	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	OHMETHYLBILANESYN-RXN	1
+		M_T_PCIT_0_20	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-5188
+	UROGENIIISYN-RXN	1
+		M_T_PCIT_0_19	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	OHMETHYLBILANESYN-RXN	1
+		M_T_PCIT_0_20	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7382
+	RXN-14959	1
+		M_T_PCIT_0_131	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-14957	1
+		M_T_PCIT_0_131	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6894
+	RXN-12611	1
+		M_T_PCIT_0_401	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY0-1264
+	RXN0-5055	2
+		M_T_PCIT_0_313	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_129	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6890
+	PYRIMSYN1-RXN	1
+		M_T_PCIT_0_400	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+LEUSYN-PWY
+	RXN-8991	1
+		M_T_PCIT_1_1	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	3-ISOPROPYLMALISOM-RXN	1
+		M_T_PCIT_1_1	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	2-ISOPROPYLMALATESYN-RXN	1
+		M_T_PCIT_1_46	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	3-ISOPROPYLMALDEHYDROG-RXN	1
+		M_T_PCIT_1_2	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY-6892
+	RXN0-308	4
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_1_93	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-14382	3
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6893
+	RXN-12610	1
+		M_T_PCIT_0_401	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-5101
+	R-2-METHYLMALATE-DEHYDRATASE-RXN	1
+		M_T_PCIT_1_1	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	RXN-7744	1
+		M_T_PCIT_1_1	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	ACETOOHBUTREDUCTOISOM-RXN	1
+		M_T_PCIT_1_45	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+CITRULLINE-DEG-PWY
+	ORNCARBAMTRANSFER-RXN	1
+		M_T_PCIT_0_415	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6164
+	DAHPSYN-RXN	1
+		M_T_PCIT_1_17	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	3-DEHYDROQUINATE-SYNTHASE-RXN	1
+		M_T_PCIT_1_109	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY-2301
+	MYO-INOSITOL-1OR-4-MONOPHOSPHATASE-RXN	1
+		M_T_PCIT_0_238	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7250
+	RXN-14384	3
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-15881	3
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-14386	3
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN-14385	3
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+FASYN-ELONG-PWY
+	3-OXOACYL-ACP-REDUCT-RXN	1
+		M_T_PCIT_0_140	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7219
+	ADENYL-KIN-RXN	1
+		M_T_PCIT_0_53	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-7353
+	THI-P-SYN-RXN	1
+		M_T_PCIT_0_401	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6168
+	LUMAZINESYN-RXN	1
+		M_T_PCIT_0_133	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RIBOFLAVIN-SYN-RXN	1
+		M_T_PCIT_0_99	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+PWY-6654
+	RXN-15635	1
+		M_T_PCIT_0_325	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+VALSYN-PWY
+	ACETOLACTREDUCTOISOM-RXN	1
+		M_T_PCIT_1_45	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY0-1021
+	RXN0-308	4
+		M_T_PCIT_0_239	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_1_93	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+		M_T_PCIT_0_351	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+		M_T_PCIT_0_349	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+DETOX1-PWY
+	SUPEROX-DISMUT-RXN	1
+		M_T_PCIT_0_267	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+HISTSYN-PWY
+	HISTPRATPHYD-RXN	1
+		M_T_PCIT_1_103	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	ATPPHOSPHORIBOSYLTRANS-RXN	1
+		M_T_PCIT_1_108	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	GLUTAMIDOTRANS-RXN	2
+		M_T_PCIT_1_104	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+		M_T_PCIT_1_106	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	IMIDPHOSDEHYD-RXN	1
+		M_T_PCIT_1_107	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+	PRIBFAICARPISOM-RXN	1
+		M_T_PCIT_1_105	Candidatus Tremblaya princeps [ 	Candidatus Tremblaya princeps ]
+PWY0-501
+	RXN0-947	1
+		M_T_PCIT_0_130	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]
+	RXN0-949	1
+		M_T_PCIT_0_131	Candidatus Moranella endobia [ 	Candidatus Moranella endobia ]

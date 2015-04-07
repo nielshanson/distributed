@@ -254,6 +254,7 @@ def main():
        cyc = pythoncyc.select_organism(opts.ptools_org)
    except:
        print "Could not connect to Pathway Tools. Run pathway-tools/pathway-tools -lisp -python-local-only"
+       exit()
    
    # create compatible pathway file for MicroDex
    if opts.micro_dex:
